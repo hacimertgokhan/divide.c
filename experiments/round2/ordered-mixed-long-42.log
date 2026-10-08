@@ -1,0 +1,2 @@
+CPU scalar prototype | context=64 recent=8 steps=100000 tests=4000 dim=12 seed=42 compressor=ordered readout=gated
+divide   params=1112 train=8.598s eval=0.045ms nll=2.1648 accuracy=31.57% blocks=11 representation=1144B tape_peak=978976B

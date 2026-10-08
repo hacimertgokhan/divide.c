@@ -1,0 +1,47 @@
+{
+  "context": 64,
+  "recent": 8,
+  "evaluation_examples": 4000,
+  "warmup_passes_per_process": 1,
+  "timed_passes_per_process": 9,
+  "processes_per_variant": 2,
+  "runs": {
+    "original": [
+      {
+        "median_ms": 0.112313,
+        "min_ms": 0.094571,
+        "max_ms": 0.14326,
+        "accuracy": 0.30925,
+        "nll": 1.915112
+      },
+      {
+        "median_ms": 0.136502,
+        "min_ms": 0.104247,
+        "max_ms": 0.187529,
+        "accuracy": 0.30925,
+        "nll": 1.915112
+      }
+    ],
+    "current": [
+      {
+        "median_ms": 0.072773,
+        "min_ms": 0.053986,
+        "max_ms": 0.098053,
+        "accuracy": 0.43075,
+        "nll": 1.729312
+      },
+      {
+        "median_ms": 0.083721,
+        "min_ms": 0.075243,
+        "max_ms": 0.117162,
+        "accuracy": 0.43075,
+        "nll": 1.729312
+      }
+    ]
+  },
+  "original_median_ms": 0.1244075,
+  "current_median_ms": 0.07824700000000001,
+  "latency_reduction_percent": 37.10427425999235,
+  "speed_gate_passed": true,
+  "accuracy_gate_passed": true
+}

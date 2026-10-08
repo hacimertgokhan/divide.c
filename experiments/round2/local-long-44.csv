@@ -1,0 +1,2 @@
+model,parameters,train_seconds,eval_ms_per_example,nll,accuracy,attention_blocks,representation_bytes,autodiff_peak_bytes,seed,compressor,readout,context,recent,steps,tests,schedule,curriculum,train_task,eval_task
+divide,1112,5.195132,0.040359,1.218560,0.617000,11,1144,1259880,44,local,gated,64,8,50000,4000,cosine,no,fixed,fixed

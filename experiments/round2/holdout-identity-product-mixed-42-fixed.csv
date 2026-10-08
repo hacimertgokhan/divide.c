@@ -1,0 +1,2 @@
+context,tests,task,compressor,accuracy,nll,eval_ms,blocks
+64,4000,fixed,associative-selective,0.685750,0.974570,0.028092,11

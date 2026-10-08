@@ -1,0 +1,3 @@
+CPU scalar prototype | context=64 recent=8 steps=20000 tests=1000 dim=12
+baseline params=1112 train=9.180s eval=0.159ms nll=0.9479 accuracy=67.70% blocks=64 representation=6656B tape_peak=2765920B
+divide   params=1112 train=6.787s eval=0.115ms nll=1.9830 accuracy=29.20% blocks=11 representation=1144B tape_peak=1990000B

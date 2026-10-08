@@ -1,0 +1,2 @@
+model,parameters,train_seconds,eval_ms_per_example,nll,accuracy,attention_blocks,representation_bytes,autodiff_peak_bytes,seed,compressor,readout,context,recent,steps,tests,schedule,curriculum,train_task,eval_task,data_seed,eval_seed,initialization,learning_rate,binding,batch,distinct,score_cache
+divide,1112,6.356602,0.032046,0.800946,0.813000,11,1144,629600,42,associative-selective,product,64,8,100000,4000,cosine,no,mixed,mixed,12345,987654321,identity,0.003000,additive,1,early,no

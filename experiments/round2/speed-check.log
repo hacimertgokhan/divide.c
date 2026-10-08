@@ -1,0 +1,66 @@
+previous {"median_ms": 0.03771675, "min_ms": 0.0375895, "max_ms": 0.038188, "accuracy": 0.30775, "nll": 2.184749909, "blocks": 11, "parameters": 1112, "tape_bytes": 1311720}
+new {"median_ms": 0.0265055, "min_ms": 0.0263965, "max_ms": 0.02733175, "accuracy": 0.6865, "nll": 1.070041286, "blocks": 11, "parameters": 1112, "tape_bytes": 636384}
+previous {"median_ms": 0.0371335, "min_ms": 0.036951, "max_ms": 0.038317, "accuracy": 0.30775, "nll": 2.184749909, "blocks": 11, "parameters": 1112, "tape_bytes": 1311720}
+new {"median_ms": 0.02647975, "min_ms": 0.026398, "max_ms": 0.02663225, "accuracy": 0.6865, "nll": 1.070041286, "blocks": 11, "parameters": 1112, "tape_bytes": 636384}
+{
+  "context": 64,
+  "recent": 8,
+  "task": "mixed",
+  "evaluation_seed": 700001,
+  "evaluation_examples": 4000,
+  "training_steps_each": 100000,
+  "warmup_passes": 1,
+  "timed_passes_per_process": 9,
+  "processes_per_variant": 2,
+  "runs": {
+    "previous": [
+      {
+        "median_ms": 0.03771675,
+        "min_ms": 0.0375895,
+        "max_ms": 0.038188,
+        "accuracy": 0.30775,
+        "nll": 2.184749909,
+        "blocks": 11,
+        "parameters": 1112,
+        "tape_bytes": 1311720
+      },
+      {
+        "median_ms": 0.0371335,
+        "min_ms": 0.036951,
+        "max_ms": 0.038317,
+        "accuracy": 0.30775,
+        "nll": 2.184749909,
+        "blocks": 11,
+        "parameters": 1112,
+        "tape_bytes": 1311720
+      }
+    ],
+    "new": [
+      {
+        "median_ms": 0.0265055,
+        "min_ms": 0.0263965,
+        "max_ms": 0.02733175,
+        "accuracy": 0.6865,
+        "nll": 1.070041286,
+        "blocks": 11,
+        "parameters": 1112,
+        "tape_bytes": 636384
+      },
+      {
+        "median_ms": 0.02647975,
+        "min_ms": 0.026398,
+        "max_ms": 0.02663225,
+        "accuracy": 0.6865,
+        "nll": 1.070041286,
+        "blocks": 11,
+        "parameters": 1112,
+        "tape_bytes": 636384
+      }
+    ]
+  },
+  "previous_median_ms": 0.037425125000000004,
+  "new_median_ms": 0.026492625,
+  "latency_reduction_percent": 29.211659279695134,
+  "speed_gate_passed": true,
+  "accuracy_gate_passed": true
+}

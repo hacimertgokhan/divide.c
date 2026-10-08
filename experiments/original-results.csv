@@ -1,0 +1,3 @@
+model,parameters,train_seconds,eval_ms_per_example,nll,accuracy,attention_blocks,representation_bytes,autodiff_peak_bytes
+baseline,1112,9.179999,0.159402,0.947857,0.677000,64,6656,2765920
+divide,1112,6.787070,0.114903,1.982986,0.292000,11,1144,1990000

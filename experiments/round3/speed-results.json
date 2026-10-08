@@ -1,0 +1,88 @@
+{
+  "context": 64,
+  "recent": 8,
+  "task": "mixed",
+  "evaluation_seed": 700003,
+  "examples": 4000,
+  "training_examples_each": 100000,
+  "warmup_passes": 1,
+  "timed_passes": 9,
+  "processes_per_variant": 2,
+  "runs": {
+    "previous": [
+      {
+        "median_ms": 0.02774275,
+        "min_ms": 0.02746675,
+        "max_ms": 0.028638,
+        "accuracy": 0.69875,
+        "nll": 1.027682702,
+        "blocks": 11,
+        "parameters": 1112,
+        "tape_bytes": 636384
+      },
+      {
+        "median_ms": 0.0272275,
+        "min_ms": 0.02708025,
+        "max_ms": 0.02774575,
+        "accuracy": 0.69875,
+        "nll": 1.027682702,
+        "blocks": 11,
+        "parameters": 1112,
+        "tape_bytes": 636384
+      }
+    ],
+    "optimized_same_weights": [
+      {
+        "median_ms": 0.02473975,
+        "min_ms": 0.02454525,
+        "max_ms": 0.02487175,
+        "accuracy": 0.69875,
+        "nll": 1.027682702,
+        "blocks": 11,
+        "parameters": 1112,
+        "tape_bytes": 576480
+      },
+      {
+        "median_ms": 0.0250145,
+        "min_ms": 0.02478375,
+        "max_ms": 0.02699375,
+        "accuracy": 0.69875,
+        "nll": 1.027682702,
+        "blocks": 11,
+        "parameters": 1112,
+        "tape_bytes": 576480
+      }
+    ],
+    "new_training": [
+      {
+        "median_ms": 0.02480675,
+        "min_ms": 0.024302,
+        "max_ms": 0.0256955,
+        "accuracy": 0.8365,
+        "nll": 0.710864204,
+        "blocks": 11,
+        "parameters": 1112,
+        "tape_bytes": 576480
+      },
+      {
+        "median_ms": 0.02533925,
+        "min_ms": 0.024568,
+        "max_ms": 0.02662025,
+        "accuracy": 0.8365,
+        "nll": 0.710864204,
+        "blocks": 11,
+        "parameters": 1112,
+        "tape_bytes": 576480
+      }
+    ]
+  },
+  "median_ms": {
+    "previous": 0.027485125,
+    "optimized_same_weights": 0.024877125,
+    "new_training": 0.025072999999999998
+  },
+  "latency_reduction_percent": 8.776110714431907,
+  "invariance_gate_passed": true,
+  "speed_gate_passed": true,
+  "accuracy_gate_passed": true
+}

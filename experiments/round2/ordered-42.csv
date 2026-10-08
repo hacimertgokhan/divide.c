@@ -1,0 +1,2 @@
+model,parameters,train_seconds,eval_ms_per_example,nll,accuracy,attention_blocks,representation_bytes,autodiff_peak_bytes,seed,compressor,readout,context,recent,steps,tests,schedule,curriculum
+divide,1112,3.324510,0.065282,1.729312,0.430750,11,1144,1311720,42,ordered,gated,64,8,20000,4000,constant,no

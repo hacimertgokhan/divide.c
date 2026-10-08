@@ -1,0 +1,2 @@
+model,parameters,train_seconds,eval_ms_per_example,nll,accuracy,attention_blocks,representation_bytes,autodiff_peak_bytes,seed,compressor,readout,context,recent,steps,tests,schedule,curriculum,train_task,eval_task,data_seed,eval_seed,initialization,learning_rate
+divide,1112,5.340916,0.026581,1.450336,0.502250,11,1144,636768,42,associative-selective,gated,64,8,100000,4000,cosine,no,mixed,mixed,12345,987654321,random,0.001500

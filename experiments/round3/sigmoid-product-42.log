@@ -1,0 +1,2 @@
+CPU scalar prototype | context=64 recent=8 steps=100000 tests=4000 dim=12 seed=42 compressor=sigmoid-pool readout=product
+divide   params=1112 train=5.016s eval=0.023ms nll=1.6595 accuracy=37.73% blocks=11 representation=1144B tape_peak=513344B
