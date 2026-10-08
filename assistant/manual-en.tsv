@@ -1,0 +1,12 @@
+please prepare the report tomorrow	report_tomorrow_normal
+important pay the bill today	payment_today_urgent
+remind me to go shopping tomorrow	shopping_tomorrow_normal
+please schedule a meeting this week	meeting_week_normal
+send mail not urgent	email_unspecified_normal
+nice weather today	none_unspecified_normal
+thanks	none_unspecified_normal
+nothing urgent	none_unspecified_normal
+do not send the report	none_unspecified_normal
+go to the doctor tomorrow	other_tomorrow_normal
+not urgent please send the report tomorrow	report_tomorrow_normal
+first send the report but actually make a payment tomorrow	payment_tomorrow_normal

@@ -1,0 +1,34 @@
+step=5000 nll=1.1304 elapsed=1.7s
+step=10000 nll=0.1197 elapsed=3.3s
+step=15000 nll=0.0309 elapsed=5.0s
+step=20000 nll=0.0387 elapsed=6.6s
+step=25000 nll=0.0326 elapsed=8.3s
+step=30000 nll=0.0182 elapsed=10.0s
+step=35000 nll=0.0001 elapsed=11.6s
+step=40000 nll=0.0382 elapsed=13.3s
+step=45000 nll=0.0177 elapsed=15.0s
+step=50000 nll=0.0041 elapsed=16.7s
+step=55000 nll=0.0000 elapsed=18.3s
+step=60000 nll=0.0119 elapsed=20.0s
+step=65000 nll=0.0041 elapsed=21.7s
+step=70000 nll=0.0000 elapsed=23.4s
+step=75000 nll=0.0120 elapsed=25.1s
+step=80000 nll=0.0008 elapsed=26.8s
+step=85000 nll=0.0011 elapsed=28.4s
+step=90000 nll=0.0033 elapsed=30.1s
+step=95000 nll=0.0000 elapsed=31.8s
+step=100000 nll=0.0000 elapsed=33.5s
+step=105000 nll=0.0004 elapsed=35.2s
+step=110000 nll=0.0006 elapsed=36.9s
+step=115000 nll=0.0000 elapsed=38.6s
+step=120000 nll=0.0000 elapsed=40.2s
+step=125000 nll=0.0000 elapsed=42.0s
+step=130000 nll=0.0000 elapsed=43.7s
+step=135000 nll=0.0000 elapsed=45.3s
+step=140000 nll=0.0000 elapsed=47.0s
+step=145000 nll=0.0001 elapsed=48.7s
+step=150000 nll=0.0000 elapsed=50.4s
+training dialogues=2190 vocabulary=90 parameters=20832 context=64 recent=8 mode=divide
+saved=assistant/english.weights train_seconds=50.364
+training-set tokens=4380 nll=0.0000 next_token_accuracy=100.00% ms/token=0.0081
+evaluation tokens=380 nll=0.3891 next_token_accuracy=97.11% ms/token=0.0082

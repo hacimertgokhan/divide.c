@@ -1,0 +1,34 @@
+step=5000 nll=0.9700 elapsed=2.2s
+step=10000 nll=0.0487 elapsed=4.4s
+step=15000 nll=0.0377 elapsed=6.7s
+step=20000 nll=0.0635 elapsed=9.1s
+step=25000 nll=0.0034 elapsed=11.4s
+step=30000 nll=0.0000 elapsed=13.7s
+step=35000 nll=0.1109 elapsed=16.3s
+step=40000 nll=0.0024 elapsed=18.9s
+step=45000 nll=0.0000 elapsed=22.1s
+step=50000 nll=0.0000 elapsed=25.9s
+step=55000 nll=0.0367 elapsed=29.2s
+step=60000 nll=0.0030 elapsed=32.0s
+step=65000 nll=0.0000 elapsed=35.1s
+step=70000 nll=0.0000 elapsed=38.1s
+step=75000 nll=0.0000 elapsed=41.4s
+step=80000 nll=0.0057 elapsed=44.6s
+step=85000 nll=0.0019 elapsed=47.6s
+step=90000 nll=0.0000 elapsed=51.0s
+step=95000 nll=0.0000 elapsed=54.5s
+step=100000 nll=0.0000 elapsed=58.3s
+step=105000 nll=0.0000 elapsed=62.2s
+step=110000 nll=0.0000 elapsed=65.1s
+step=115000 nll=0.0000 elapsed=68.4s
+step=120000 nll=0.0000 elapsed=71.5s
+step=125000 nll=0.0000 elapsed=74.5s
+step=130000 nll=0.0000 elapsed=77.5s
+step=135000 nll=0.0000 elapsed=80.7s
+step=140000 nll=0.0000 elapsed=83.5s
+step=145000 nll=0.0000 elapsed=86.6s
+step=150000 nll=0.0000 elapsed=89.5s
+training dialogues=1337 vocabulary=88 parameters=20832 context=64 recent=8 mode=dense
+saved=assistant/dense.weights train_seconds=89.501
+training-set tokens=2674 nll=0.0000 next_token_accuracy=100.00% ms/token=0.0139
+evaluation tokens=400 nll=0.0000 next_token_accuracy=100.00% ms/token=0.0144

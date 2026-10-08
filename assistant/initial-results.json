@@ -1,0 +1,1220 @@
+{
+  "eval": {
+    "examples": 160,
+    "exact_record_accuracy": 0.14375,
+    "end_to_end_ms_per_record": 3.9078283811250003,
+    "details": [
+      {
+        "input": "acil lütfen raporu hazırla hatırlat yarın",
+        "expected": "iş rapor zaman yarın öncelik acil",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen raporu gönder hatırlat yarın",
+        "expected": "iş rapor zaman yarın öncelik normal",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen ödeme yap hatırlat bu hafta",
+        "expected": "iş ödeme zaman hafta öncelik normal",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen raporu gönder hatırlat bugün",
+        "expected": "iş rapor zaman bugün öncelik acil",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen raporu gönder hatırlat",
+        "expected": "iş rapor zaman belirsiz öncelik acil",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen e-posta gönder hatırlat",
+        "expected": "iş e-posta zaman belirsiz öncelik normal",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen toplantı planla hatırlat bu hafta",
+        "expected": "iş toplantı zaman hafta öncelik acil",
+        "generated": "iş toplantı zaman hafta öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen e-posta gönder hatırlat yarın",
+        "expected": "iş e-posta zaman yarın öncelik normal",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen mail gönder hatırlat bugün",
+        "expected": "iş e-posta zaman bugün öncelik normal",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen mail gönder hatırlat bu hafta",
+        "expected": "iş e-posta zaman hafta öncelik normal",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen faturayı öde hatırlat bu hafta",
+        "expected": "iş ödeme zaman hafta öncelik acil",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen mail gönder hatırlat",
+        "expected": "iş e-posta zaman belirsiz öncelik normal",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen alışveriş yap hatırlat bu hafta",
+        "expected": "iş alışveriş zaman hafta öncelik normal",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen toplantı planla hatırlat yarın",
+        "expected": "iş toplantı zaman yarın öncelik acil",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen raporu gönder hatırlat bugün",
+        "expected": "iş rapor zaman bugün öncelik normal",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen toplantı ayarla hatırlat",
+        "expected": "iş toplantı zaman belirsiz öncelik acil",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen e-posta gönder hatırlat",
+        "expected": "iş e-posta zaman belirsiz öncelik acil",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen toplantı ayarla hatırlat",
+        "expected": "iş toplantı zaman belirsiz öncelik normal",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen ödeme yap hatırlat yarın",
+        "expected": "iş ödeme zaman yarın öncelik acil",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen ödeme yap hatırlat yarın",
+        "expected": "iş ödeme zaman yarın öncelik normal",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen raporu gönder hatırlat yarın",
+        "expected": "iş rapor zaman yarın öncelik normal",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen market alışverişi yap hatırlat yarın",
+        "expected": "iş alışveriş zaman yarın öncelik normal",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen toplantı ayarla hatırlat bu hafta",
+        "expected": "iş toplantı zaman hafta öncelik acil",
+        "generated": "iş toplantı zaman hafta öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen mail gönder hatırlat",
+        "expected": "iş e-posta zaman belirsiz öncelik normal",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen e-posta gönder hatırlat bu hafta",
+        "expected": "iş e-posta zaman hafta öncelik normal",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen market alışverişi yap hatırlat bu hafta",
+        "expected": "iş alışveriş zaman hafta öncelik normal",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen toplantı ayarla hatırlat bugün",
+        "expected": "iş toplantı zaman bugün öncelik normal",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen market alışverişi yap hatırlat bu hafta",
+        "expected": "iş alışveriş zaman hafta öncelik acil",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen raporu gönder hatırlat bu hafta",
+        "expected": "iş rapor zaman hafta öncelik normal",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen toplantı ayarla hatırlat bugün",
+        "expected": "iş toplantı zaman bugün öncelik acil",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen mail gönder hatırlat bu hafta",
+        "expected": "iş e-posta zaman hafta öncelik normal",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen market alışverişi yap hatırlat bu hafta",
+        "expected": "iş alışveriş zaman hafta öncelik normal",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen ödeme yap hatırlat yarın",
+        "expected": "iş ödeme zaman yarın öncelik normal",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen raporu hazırla hatırlat bugün",
+        "expected": "iş rapor zaman bugün öncelik normal",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen toplantı ayarla hatırlat bugün",
+        "expected": "iş toplantı zaman bugün öncelik normal",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen alışveriş yap hatırlat yarın",
+        "expected": "iş alışveriş zaman yarın öncelik normal",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen faturayı öde hatırlat bugün",
+        "expected": "iş ödeme zaman bugün öncelik acil",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen toplantı planla hatırlat bugün",
+        "expected": "iş toplantı zaman bugün öncelik normal",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen alışveriş yap hatırlat bugün",
+        "expected": "iş alışveriş zaman bugün öncelik acil",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen mail gönder hatırlat yarın",
+        "expected": "iş e-posta zaman yarın öncelik acil",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen market alışverişi yap hatırlat yarın",
+        "expected": "iş alışveriş zaman yarın öncelik acil",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen faturayı öde hatırlat bugün",
+        "expected": "iş ödeme zaman bugün öncelik acil",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen mail gönder hatırlat bugün",
+        "expected": "iş e-posta zaman bugün öncelik acil",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen faturayı öde hatırlat yarın",
+        "expected": "iş ödeme zaman yarın öncelik acil",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen toplantı planla hatırlat",
+        "expected": "iş toplantı zaman belirsiz öncelik acil",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen alışveriş yap hatırlat",
+        "expected": "iş alışveriş zaman belirsiz öncelik acil",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen toplantı planla hatırlat",
+        "expected": "iş toplantı zaman belirsiz öncelik acil",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen faturayı öde hatırlat",
+        "expected": "iş ödeme zaman belirsiz öncelik acil",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen raporu hazırla hatırlat bugün",
+        "expected": "iş rapor zaman bugün öncelik normal",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen raporu gönder hatırlat yarın",
+        "expected": "iş rapor zaman yarın öncelik acil",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen alışveriş yap hatırlat bu hafta",
+        "expected": "iş alışveriş zaman hafta öncelik acil",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen toplantı ayarla hatırlat",
+        "expected": "iş toplantı zaman belirsiz öncelik acil",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen raporu gönder hatırlat",
+        "expected": "iş rapor zaman belirsiz öncelik normal",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen raporu gönder hatırlat bugün",
+        "expected": "iş rapor zaman bugün öncelik normal",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen faturayı öde hatırlat bu hafta",
+        "expected": "iş ödeme zaman hafta öncelik normal",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen raporu gönder hatırlat bu hafta",
+        "expected": "iş rapor zaman hafta öncelik acil",
+        "generated": "iş rapor zaman hafta öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen ödeme yap hatırlat bu hafta",
+        "expected": "iş ödeme zaman hafta öncelik normal",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen toplantı planla hatırlat yarın",
+        "expected": "iş toplantı zaman yarın öncelik normal",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen faturayı öde hatırlat bu hafta",
+        "expected": "iş ödeme zaman hafta öncelik acil",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen alışveriş yap hatırlat bu hafta",
+        "expected": "iş alışveriş zaman hafta öncelik acil",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen mail gönder hatırlat bu hafta",
+        "expected": "iş e-posta zaman hafta öncelik acil",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen raporu hazırla hatırlat",
+        "expected": "iş rapor zaman belirsiz öncelik acil",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen toplantı ayarla hatırlat bu hafta",
+        "expected": "iş toplantı zaman hafta öncelik normal",
+        "generated": "iş toplantı zaman hafta öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen raporu gönder hatırlat bu hafta",
+        "expected": "iş rapor zaman hafta öncelik acil",
+        "generated": "iş rapor zaman hafta öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen faturayı öde hatırlat yarın",
+        "expected": "iş ödeme zaman yarın öncelik acil",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen faturayı öde hatırlat bugün",
+        "expected": "iş ödeme zaman bugün öncelik normal",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen market alışverişi yap hatırlat bugün",
+        "expected": "iş alışveriş zaman bugün öncelik acil",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen alışveriş yap hatırlat yarın",
+        "expected": "iş alışveriş zaman yarın öncelik normal",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen toplantı planla hatırlat bu hafta",
+        "expected": "iş toplantı zaman hafta öncelik normal",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen faturayı öde hatırlat",
+        "expected": "iş ödeme zaman belirsiz öncelik normal",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen faturayı öde hatırlat bu hafta",
+        "expected": "iş ödeme zaman hafta öncelik normal",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen toplantı planla hatırlat bugün",
+        "expected": "iş toplantı zaman bugün öncelik normal",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen raporu hazırla hatırlat bugün",
+        "expected": "iş rapor zaman bugün öncelik acil",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen e-posta gönder hatırlat bu hafta",
+        "expected": "iş e-posta zaman hafta öncelik acil",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen raporu hazırla hatırlat yarın",
+        "expected": "iş rapor zaman yarın öncelik normal",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen toplantı planla hatırlat bugün",
+        "expected": "iş toplantı zaman bugün öncelik acil",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen toplantı planla hatırlat",
+        "expected": "iş toplantı zaman belirsiz öncelik normal",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen faturayı öde hatırlat",
+        "expected": "iş ödeme zaman belirsiz öncelik acil",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen alışveriş yap hatırlat bugün",
+        "expected": "iş alışveriş zaman bugün öncelik normal",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen toplantı planla hatırlat yarın",
+        "expected": "iş toplantı zaman yarın öncelik acil",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen raporu hazırla hatırlat bu hafta",
+        "expected": "iş rapor zaman hafta öncelik normal",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen e-posta gönder hatırlat yarın",
+        "expected": "iş e-posta zaman yarın öncelik acil",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen mail gönder hatırlat",
+        "expected": "iş e-posta zaman belirsiz öncelik acil",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen toplantı ayarla hatırlat yarın",
+        "expected": "iş toplantı zaman yarın öncelik acil",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen raporu gönder hatırlat",
+        "expected": "iş rapor zaman belirsiz öncelik acil",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen raporu hazırla hatırlat",
+        "expected": "iş rapor zaman belirsiz öncelik acil",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen e-posta gönder hatırlat yarın",
+        "expected": "iş e-posta zaman yarın öncelik acil",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen mail gönder hatırlat bugün",
+        "expected": "iş e-posta zaman bugün öncelik acil",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen mail gönder hatırlat yarın",
+        "expected": "iş e-posta zaman yarın öncelik normal",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen toplantı ayarla hatırlat",
+        "expected": "iş toplantı zaman belirsiz öncelik normal",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen ödeme yap hatırlat bugün",
+        "expected": "iş ödeme zaman bugün öncelik normal",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen market alışverişi yap hatırlat bugün",
+        "expected": "iş alışveriş zaman bugün öncelik acil",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen market alışverişi yap hatırlat yarın",
+        "expected": "iş alışveriş zaman yarın öncelik acil",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen alışveriş yap hatırlat",
+        "expected": "iş alışveriş zaman belirsiz öncelik normal",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen toplantı ayarla hatırlat bu hafta",
+        "expected": "iş toplantı zaman hafta öncelik normal",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen alışveriş yap hatırlat bu hafta",
+        "expected": "iş alışveriş zaman hafta öncelik normal",
+        "generated": "iş alışveriş zaman hafta öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen market alışverişi yap hatırlat yarın",
+        "expected": "iş alışveriş zaman yarın öncelik normal",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen ödeme yap hatırlat bu hafta",
+        "expected": "iş ödeme zaman hafta öncelik acil",
+        "generated": "iş ödeme zaman hafta öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen raporu gönder hatırlat bugün",
+        "expected": "iş rapor zaman bugün öncelik acil",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen market alışverişi yap hatırlat",
+        "expected": "iş alışveriş zaman belirsiz öncelik normal",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen raporu gönder hatırlat yarın",
+        "expected": "iş rapor zaman yarın öncelik acil",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen faturayı öde hatırlat bugün",
+        "expected": "iş ödeme zaman bugün öncelik normal",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen e-posta gönder hatırlat bugün",
+        "expected": "iş e-posta zaman bugün öncelik normal",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen mail gönder hatırlat",
+        "expected": "iş e-posta zaman belirsiz öncelik acil",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen toplantı planla hatırlat bu hafta",
+        "expected": "iş toplantı zaman hafta öncelik normal",
+        "generated": "iş toplantı zaman hafta öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen ödeme yap hatırlat",
+        "expected": "iş ödeme zaman belirsiz öncelik acil",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen alışveriş yap hatırlat",
+        "expected": "iş alışveriş zaman belirsiz öncelik normal",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen raporu hazırla hatırlat yarın",
+        "expected": "iş rapor zaman yarın öncelik acil",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen ödeme yap hatırlat",
+        "expected": "iş ödeme zaman belirsiz öncelik acil",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen toplantı ayarla hatırlat bu hafta",
+        "expected": "iş toplantı zaman hafta öncelik acil",
+        "generated": "iş toplantı zaman hafta öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen e-posta gönder hatırlat bu hafta",
+        "expected": "iş e-posta zaman hafta öncelik normal",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen alışveriş yap hatırlat",
+        "expected": "iş alışveriş zaman belirsiz öncelik acil",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen mail gönder hatırlat yarın",
+        "expected": "iş e-posta zaman yarın öncelik acil",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen faturayı öde hatırlat",
+        "expected": "iş ödeme zaman belirsiz öncelik normal",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen e-posta gönder hatırlat bugün",
+        "expected": "iş e-posta zaman bugün öncelik acil",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen alışveriş yap hatırlat bugün",
+        "expected": "iş alışveriş zaman bugün öncelik acil",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen mail gönder hatırlat bugün",
+        "expected": "iş e-posta zaman bugün öncelik normal",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen toplantı ayarla hatırlat yarın",
+        "expected": "iş toplantı zaman yarın öncelik normal",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen e-posta gönder hatırlat",
+        "expected": "iş e-posta zaman belirsiz öncelik acil",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen alışveriş yap hatırlat yarın",
+        "expected": "iş alışveriş zaman yarın öncelik acil",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen faturayı öde hatırlat yarın",
+        "expected": "iş ödeme zaman yarın öncelik normal",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen ödeme yap hatırlat",
+        "expected": "iş ödeme zaman belirsiz öncelik normal",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen toplantı ayarla hatırlat bugün",
+        "expected": "iş toplantı zaman bugün öncelik acil",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen market alışverişi yap hatırlat",
+        "expected": "iş alışveriş zaman belirsiz öncelik normal",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen toplantı planla hatırlat yarın",
+        "expected": "iş toplantı zaman yarın öncelik normal",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen e-posta gönder hatırlat bugün",
+        "expected": "iş e-posta zaman bugün öncelik normal",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen toplantı planla hatırlat bu hafta",
+        "expected": "iş toplantı zaman hafta öncelik acil",
+        "generated": "iş toplantı zaman hafta öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen toplantı ayarla hatırlat yarın",
+        "expected": "iş toplantı zaman yarın öncelik acil",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen market alışverişi yap hatırlat bugün",
+        "expected": "iş alışveriş zaman bugün öncelik normal",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen toplantı planla hatırlat bugün",
+        "expected": "iş toplantı zaman bugün öncelik acil",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen ödeme yap hatırlat bu hafta",
+        "expected": "iş ödeme zaman hafta öncelik acil",
+        "generated": "iş ödeme zaman hafta öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen raporu hazırla hatırlat yarın",
+        "expected": "iş rapor zaman yarın öncelik normal",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen e-posta gönder hatırlat bugün",
+        "expected": "iş e-posta zaman bugün öncelik acil",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen raporu gönder hatırlat bu hafta",
+        "expected": "iş rapor zaman hafta öncelik normal",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen raporu hazırla hatırlat bugün",
+        "expected": "iş rapor zaman bugün öncelik acil",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen raporu hazırla hatırlat",
+        "expected": "iş rapor zaman belirsiz öncelik normal",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen ödeme yap hatırlat bugün",
+        "expected": "iş ödeme zaman bugün öncelik normal",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen market alışverişi yap hatırlat bugün",
+        "expected": "iş alışveriş zaman bugün öncelik normal",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen e-posta gönder hatırlat",
+        "expected": "iş e-posta zaman belirsiz öncelik normal",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen market alışverişi yap hatırlat",
+        "expected": "iş alışveriş zaman belirsiz öncelik acil",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen e-posta gönder hatırlat bu hafta",
+        "expected": "iş e-posta zaman hafta öncelik acil",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen mail gönder hatırlat yarın",
+        "expected": "iş e-posta zaman yarın öncelik normal",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen raporu hazırla hatırlat",
+        "expected": "iş rapor zaman belirsiz öncelik normal",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen raporu hazırla hatırlat bu hafta",
+        "expected": "iş rapor zaman hafta öncelik normal",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen alışveriş yap hatırlat yarın",
+        "expected": "iş alışveriş zaman yarın öncelik acil",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen faturayı öde hatırlat yarın",
+        "expected": "iş ödeme zaman yarın öncelik normal",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen ödeme yap hatırlat bugün",
+        "expected": "iş ödeme zaman bugün öncelik acil",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acele değil lütfen toplantı ayarla hatırlat yarın",
+        "expected": "iş toplantı zaman yarın öncelik normal",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen ödeme yap hatırlat yarın",
+        "expected": "iş ödeme zaman yarın öncelik acil",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen ödeme yap hatırlat bugün",
+        "expected": "iş ödeme zaman bugün öncelik acil",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen alışveriş yap hatırlat bugün",
+        "expected": "iş alışveriş zaman bugün öncelik normal",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen toplantı planla hatırlat",
+        "expected": "iş toplantı zaman belirsiz öncelik normal",
+        "generated": "iş toplantı zaman belirsiz öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen raporu hazırla hatırlat bu hafta",
+        "expected": "iş rapor zaman hafta öncelik acil",
+        "generated": "iş rapor zaman hafta öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen ödeme yap hatırlat",
+        "expected": "iş ödeme zaman belirsiz öncelik normal",
+        "generated": "iş ödeme zaman belirsiz öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen market alışverişi yap hatırlat",
+        "expected": "iş alışveriş zaman belirsiz öncelik acil",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen raporu gönder hatırlat",
+        "expected": "iş rapor zaman belirsiz öncelik normal",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "lütfen e-posta gönder hatırlat yarın",
+        "expected": "iş e-posta zaman yarın öncelik normal",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli lütfen mail gönder hatırlat bu hafta",
+        "expected": "iş e-posta zaman hafta öncelik acil",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen raporu hazırla hatırlat bu hafta",
+        "expected": "iş rapor zaman hafta öncelik acil",
+        "generated": "iş rapor zaman hafta öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "acil lütfen market alışverişi yap hatırlat bu hafta",
+        "expected": "iş alışveriş zaman hafta öncelik acil",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      }
+    ]
+  },
+  "manual": {
+    "examples": 12,
+    "exact_record_accuracy": 0.5833333333333334,
+    "end_to_end_ms_per_record": 3.88134024979081,
+    "details": [
+      {
+        "input": "yarın raporu hazırla lütfen",
+        "expected": "iş rapor zaman yarın öncelik normal",
+        "generated": "iş rapor zaman yarın öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "önemli bugün faturayı öde",
+        "expected": "iş ödeme zaman bugün öncelik acil",
+        "generated": "iş ödeme zaman bugün öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "bana alışveriş yap hatırlat yarın",
+        "expected": "iş alışveriş zaman yarın öncelik normal",
+        "generated": "iş alışveriş zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": false
+      },
+      {
+        "input": "bu hafta toplantı ayarla lütfen",
+        "expected": "iş toplantı zaman hafta öncelik normal",
+        "generated": "iş toplantı zaman hafta öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "mail gönder acele değil",
+        "expected": "iş e-posta zaman belirsiz öncelik normal",
+        "generated": "iş e-posta zaman belirsiz öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "bugün hava güzel",
+        "expected": "iş yok zaman belirsiz öncelik normal",
+        "generated": "iş yok zaman belirsiz öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "teşekkürler",
+        "expected": "iş yok zaman belirsiz öncelik normal",
+        "generated": "iş yok zaman belirsiz öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "acil bir şey yok",
+        "expected": "iş yok zaman belirsiz öncelik normal",
+        "generated": "iş yok zaman belirsiz öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "raporu gönderme",
+        "expected": "iş yok zaman belirsiz öncelik normal",
+        "generated": "iş rapor zaman belirsiz öncelik normal",
+        "correct": false,
+        "unknown_words": true
+      },
+      {
+        "input": "yarın doktora git",
+        "expected": "iş diğer zaman yarın öncelik normal",
+        "generated": "iş toplantı zaman yarın öncelik normal",
+        "correct": false,
+        "unknown_words": true
+      },
+      {
+        "input": "acil değil yarın raporu gönder",
+        "expected": "iş rapor zaman yarın öncelik normal",
+        "generated": "iş rapor zaman yarın öncelik normal",
+        "correct": true,
+        "unknown_words": false
+      },
+      {
+        "input": "önce raporu gönderecektim ama artık ödeme yap yarın",
+        "expected": "iş ödeme zaman yarın öncelik normal",
+        "generated": "iş e-posta zaman bugün öncelik normal",
+        "correct": false,
+        "unknown_words": true
+      }
+    ]
+  }
+}

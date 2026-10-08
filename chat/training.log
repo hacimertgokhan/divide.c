@@ -1,0 +1,24 @@
+step=5000 nll=1.5770 elapsed=1.4s
+step=10000 nll=0.2666 elapsed=2.8s
+step=15000 nll=0.1383 elapsed=4.3s
+step=20000 nll=0.1132 elapsed=5.7s
+step=25000 nll=0.1275 elapsed=7.2s
+step=30000 nll=0.1052 elapsed=8.7s
+step=35000 nll=0.0935 elapsed=10.2s
+step=40000 nll=0.1007 elapsed=11.7s
+step=45000 nll=0.0953 elapsed=13.1s
+step=50000 nll=0.0833 elapsed=14.6s
+step=55000 nll=0.0650 elapsed=16.1s
+step=60000 nll=0.0770 elapsed=17.6s
+step=65000 nll=0.0763 elapsed=19.1s
+step=70000 nll=0.0810 elapsed=20.5s
+step=75000 nll=0.0714 elapsed=22.1s
+step=80000 nll=0.0632 elapsed=23.5s
+step=85000 nll=0.0571 elapsed=25.0s
+step=90000 nll=0.0545 elapsed=26.7s
+step=95000 nll=0.0539 elapsed=28.5s
+step=100000 nll=0.0583 elapsed=30.5s
+training dialogues=82 vocabulary=236 parameters=20832 context=64 recent=8 mode=divide
+saved=chat/basic.weights train_seconds=30.550
+training-set tokens=559 nll=0.0419 next_token_accuracy=98.03% ms/token=0.0095
+evaluation tokens=46 nll=0.4159 next_token_accuracy=89.13% ms/token=0.0103

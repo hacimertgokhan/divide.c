@@ -191,3 +191,15 @@ These are conceptual precedents, not implementations reproduced by this code. An
 - `recommended.divide.weights`: the seed-42 mixed-layout checkpoint described above.
 - `experiments/`: historical source snapshots, experiment scripts, checkpoints, CSVs, and reports.
 - `README.tr.md`: detailed Turkish documentation.
+
+## Lightweight English and Turkish inbox demo
+
+A separate task-specific model now learns task, time-category, and priority labels from English and Turkish messages, using separately trained checkpoints. It keeps the binary context compression and uses numeric C inference without an autodiff graph. See [the inbox demo](assistant/README.md) for training data, evaluation limits, and usage:
+
+```sh
+make divide-chat
+python3 assistant/run.py --text 'send the report tomorrow urgent'
+python3 assistant/run.py --language tr --text 'yarın raporu gönder acil'
+```
+
+The earlier experimental conversational model is also available through `./divide-chat --load chat/basic.weights --chat`. Its small training set does not support reliable general conversation.

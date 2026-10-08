@@ -9,10 +9,16 @@
 #include <limits.h>
 
 /* Small reverse-mode autodiff engine. All memory is owned by one arena. */
+#ifndef D
 #define D 12
+#endif
+#ifndef V
 #define V 20
+#endif
 #define MAX_CONTEXT 1024
+#ifndef MAX_PARAMS
 #define MAX_PARAMS 4096
+#endif
 static const char alphabet[] = "abcd0123456789;=?xyz";
 enum { CONST, ADD, MUL, SCALE, TANH, EXP, LOG, INV, SIGMOID };
 typedef struct { double v,g; int a,op; union {int b;double factor;} u; } Node;
@@ -119,7 +125,13 @@ static int sample(int *tokens,int length){return sample_task(tokens,length,task_
 static int forward(Model *m,const int *tokens,int n,int recent,int divided,int target,int *prediction,int *blocks){
     t.used=0;for(int i=0;i<m->count;i++)constant(m->p[i]);
     Block cache[V];int seen[V]={0};
-    Block paircache[V][V];unsigned char pairseen[V][V]={{0}};
+    #ifdef DIVIDE_CHAT
+    /* The larger chat vocabulary would overflow a typical thread stack. */
+    static Block paircache[V][V];
+#else
+    Block paircache[V][V];
+#endif
+    unsigned char pairseen[V][V]={{0}};
     Block stack[MAX_CONTEXT];int count=0,old=divided?n-recent:0;if(old<0)old=0;
     for(int i=0;i<n;i++){int id=tokens[i];if(!seen[id]){cache[id]=leaf(m,id,0);seen[id]=1;}Block b=cache[id];
         if(compressor>=6 && i>0){
@@ -147,7 +159,13 @@ static int forward(Model *m,const int *tokens,int n,int recent,int divided,int t
     }
     int denom=constant(0);for(int i=0;i<count;i++){scores[i]=exponential(add(scores[i],constant(-maxscore)));denom=add(denom,scores[i]);}int inv=inverse(denom),context[D];
     for(int i=0;i<count;i++)scores[i]=mul(scores[i],inv);
-    for(int j=0;j<D;j++){int s=constant(0);for(int i=0;i<count;i++)s=add(s,mul(scores[i],values[i][j]));if(gated_readout>=3){int selector=a.h[(j+1)%D];if(gated_readout==4)selector=scale(add(selector,constant(1)),0.5);context[j]=mul(s,selector);}else context[j]=gated_readout==2?mul(s,query[j]):gated_readout?add(s,mul(s,query[j])):add(s,query[j]);}
+    for(int j=0;j<D;j++){int s=constant(0);for(int i=0;i<count;i++)s=add(s,mul(scores[i],values[i][j]));if(gated_readout>=3){int selector=a.h[(j+1)%D];if(gated_readout==4)selector=scale(add(selector,constant(1)),0.5);context[j]=mul(s,selector);}else {
+#ifdef DIVIDE_CHAT
+        context[j]=act(add(s,query[j]));
+#else
+        context[j]=gated_readout==2?mul(s,query[j]):gated_readout?add(s,mul(s,query[j])):add(s,query[j]);
+#endif
+    }}
     int logits[V];linear(m->out,context,logits,V);double best=-1e300;*prediction=0;
     for(int j=0;j<V;j++){logits[j]=add(logits[j],m->ob+j);if(t.n[logits[j]].v>best){best=t.n[logits[j]].v;*prediction=j;}}
     int sum=constant(0);for(int j=0;j<V;j++)sum=add(sum,exponential(add(logits[j],constant(-best))));return add(add(logarithm(sum),constant(best)),scale(logits[target],-1));

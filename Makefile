@@ -18,6 +18,14 @@ check: divide test
 	rm -f smoke.divide.weights smoke.baseline.weights smoke.csv
 
 clean:
-	rm -f divide test
+	rm -f divide test divide-chat chat-sanitize
 
 .PHONY: all check clean
+
+divide-chat: chat.c divide.c data.h
+	$(CC) $(CFLAGS) -Wno-unused-function chat.c -o $@ $(LDLIBS)
+
+chat-check: divide-chat
+	./divide-chat --self-test
+
+.PHONY: chat-check

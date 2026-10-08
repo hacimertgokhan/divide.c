@@ -1,0 +1,1716 @@
+{
+  "eval": {
+    "examples": 200,
+    "exact_record_accuracy": 1.0,
+    "end_to_end_ms_per_record": 4.074469170009252,
+    "details": [
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz acil lütfen raporu gönder hatırlat yarın",
+        "expected": "rapor_yarın_acil",
+        "generated": "rapor_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz lütfen raporu gönder hatırlat",
+        "expected": "rapor_belirsiz_normal",
+        "generated": "rapor_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen faturayı öde hatırlat",
+        "expected": "ödeme_belirsiz_normal",
+        "generated": "ödeme_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen e-posta gönder hatırlat bugün",
+        "expected": "e-posta_bugün_acil",
+        "generated": "e-posta_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen toplantı planla hatırlat bu hafta",
+        "expected": "toplantı_hafta_normal",
+        "generated": "toplantı_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen alışveriş yap hatırlat bu hafta",
+        "expected": "alışveriş_hafta_acil",
+        "generated": "alışveriş_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen alışveriş yap hatırlat bugün",
+        "expected": "alışveriş_bugün_acil",
+        "generated": "alışveriş_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen raporu hazırla hatırlat bugün",
+        "expected": "rapor_bugün_acil",
+        "generated": "rapor_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz lütfen faturayı öde hatırlat yarın",
+        "expected": "ödeme_yarın_normal",
+        "generated": "ödeme_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen raporu hazırla hatırlat bu hafta",
+        "expected": "rapor_hafta_acil",
+        "generated": "rapor_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz lütfen toplantı ayarla hatırlat bugün",
+        "expected": "toplantı_bugün_normal",
+        "generated": "toplantı_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen mail gönder hatırlat",
+        "expected": "e-posta_belirsiz_acil",
+        "generated": "e-posta_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen market alışverişi yap hatırlat",
+        "expected": "alışveriş_belirsiz_normal",
+        "generated": "alışveriş_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen market alışverişi yap hatırlat bu hafta",
+        "expected": "alışveriş_hafta_acil",
+        "generated": "alışveriş_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz lütfen faturayı öde hatırlat bu hafta",
+        "expected": "ödeme_hafta_normal",
+        "generated": "ödeme_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz lütfen alışveriş yap hatırlat yarın",
+        "expected": "alışveriş_yarın_normal",
+        "generated": "alışveriş_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz acil lütfen alışveriş yap hatırlat yarın",
+        "expected": "alışveriş_yarın_acil",
+        "generated": "alışveriş_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen ödeme yap hatırlat",
+        "expected": "ödeme_belirsiz_normal",
+        "generated": "ödeme_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen mail gönder hatırlat yarın",
+        "expected": "e-posta_yarın_normal",
+        "generated": "e-posta_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen ödeme yap hatırlat bugün",
+        "expected": "ödeme_bugün_acil",
+        "generated": "ödeme_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen toplantı ayarla hatırlat",
+        "expected": "toplantı_belirsiz_normal",
+        "generated": "toplantı_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen ödeme yap hatırlat yarın",
+        "expected": "ödeme_yarın_acil",
+        "generated": "ödeme_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen alışveriş yap hatırlat bu hafta",
+        "expected": "alışveriş_hafta_acil",
+        "generated": "alışveriş_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen ödeme yap hatırlat",
+        "expected": "ödeme_belirsiz_normal",
+        "generated": "ödeme_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz acil lütfen faturayı öde hatırlat",
+        "expected": "ödeme_belirsiz_acil",
+        "generated": "ödeme_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen mail gönder hatırlat bu hafta",
+        "expected": "e-posta_hafta_normal",
+        "generated": "e-posta_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen alışveriş yap hatırlat yarın",
+        "expected": "alışveriş_yarın_normal",
+        "generated": "alışveriş_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen raporu hazırla hatırlat bugün",
+        "expected": "rapor_bugün_acil",
+        "generated": "rapor_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen toplantı ayarla hatırlat yarın",
+        "expected": "toplantı_yarın_normal",
+        "generated": "toplantı_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen market alışverişi yap hatırlat bu hafta",
+        "expected": "alışveriş_hafta_normal",
+        "generated": "alışveriş_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen e-posta gönder hatırlat bugün",
+        "expected": "e-posta_bugün_normal",
+        "generated": "e-posta_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen e-posta gönder hatırlat bu hafta",
+        "expected": "e-posta_hafta_normal",
+        "generated": "e-posta_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen raporu hazırla hatırlat",
+        "expected": "rapor_belirsiz_normal",
+        "generated": "rapor_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen raporu hazırla hatırlat yarın",
+        "expected": "rapor_yarın_acil",
+        "generated": "rapor_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz lütfen alışveriş yap hatırlat bugün",
+        "expected": "alışveriş_bugün_normal",
+        "generated": "alışveriş_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen ödeme yap hatırlat bu hafta",
+        "expected": "ödeme_hafta_acil",
+        "generated": "ödeme_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen market alışverişi yap hatırlat bu hafta",
+        "expected": "alışveriş_hafta_normal",
+        "generated": "alışveriş_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen raporu gönder hatırlat bugün",
+        "expected": "rapor_bugün_normal",
+        "generated": "rapor_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen raporu gönder hatırlat bugün",
+        "expected": "rapor_bugün_normal",
+        "generated": "rapor_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz lütfen toplantı ayarla hatırlat",
+        "expected": "toplantı_belirsiz_normal",
+        "generated": "toplantı_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz lütfen e-posta gönder hatırlat bugün",
+        "expected": "e-posta_bugün_normal",
+        "generated": "e-posta_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen raporu gönder hatırlat",
+        "expected": "rapor_belirsiz_normal",
+        "generated": "rapor_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen toplantı planla hatırlat",
+        "expected": "toplantı_belirsiz_normal",
+        "generated": "toplantı_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz acil lütfen e-posta gönder hatırlat",
+        "expected": "e-posta_belirsiz_acil",
+        "generated": "e-posta_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz lütfen raporu gönder hatırlat bugün",
+        "expected": "rapor_bugün_normal",
+        "generated": "rapor_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz acil lütfen toplantı ayarla hatırlat",
+        "expected": "toplantı_belirsiz_acil",
+        "generated": "toplantı_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz acil lütfen raporu gönder hatırlat",
+        "expected": "rapor_belirsiz_acil",
+        "generated": "rapor_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen toplantı planla hatırlat bu hafta",
+        "expected": "toplantı_hafta_acil",
+        "generated": "toplantı_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen faturayı öde hatırlat bugün",
+        "expected": "ödeme_bugün_normal",
+        "generated": "ödeme_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen faturayı öde hatırlat bu hafta",
+        "expected": "ödeme_hafta_acil",
+        "generated": "ödeme_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen raporu hazırla hatırlat bu hafta",
+        "expected": "rapor_hafta_normal",
+        "generated": "rapor_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen e-posta gönder hatırlat bugün",
+        "expected": "e-posta_bugün_normal",
+        "generated": "e-posta_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen market alışverişi yap hatırlat yarın",
+        "expected": "alışveriş_yarın_acil",
+        "generated": "alışveriş_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen alışveriş yap hatırlat",
+        "expected": "alışveriş_belirsiz_normal",
+        "generated": "alışveriş_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen e-posta gönder hatırlat yarın",
+        "expected": "e-posta_yarın_normal",
+        "generated": "e-posta_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen market alışverişi yap hatırlat bugün",
+        "expected": "alışveriş_bugün_normal",
+        "generated": "alışveriş_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz acil lütfen raporu gönder hatırlat bugün",
+        "expected": "rapor_bugün_acil",
+        "generated": "rapor_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen raporu gönder hatırlat bugün",
+        "expected": "rapor_bugün_acil",
+        "generated": "rapor_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen toplantı planla hatırlat",
+        "expected": "toplantı_belirsiz_acil",
+        "generated": "toplantı_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen raporu gönder hatırlat yarın",
+        "expected": "rapor_yarın_normal",
+        "generated": "rapor_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen mail gönder hatırlat bugün",
+        "expected": "e-posta_bugün_acil",
+        "generated": "e-posta_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen raporu gönder hatırlat",
+        "expected": "rapor_belirsiz_acil",
+        "generated": "rapor_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen faturayı öde hatırlat bu hafta",
+        "expected": "ödeme_hafta_normal",
+        "generated": "ödeme_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen e-posta gönder hatırlat yarın",
+        "expected": "e-posta_yarın_normal",
+        "generated": "e-posta_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen toplantı planla hatırlat",
+        "expected": "toplantı_belirsiz_acil",
+        "generated": "toplantı_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen alışveriş yap hatırlat",
+        "expected": "alışveriş_belirsiz_normal",
+        "generated": "alışveriş_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen ödeme yap hatırlat bugün",
+        "expected": "ödeme_bugün_acil",
+        "generated": "ödeme_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen e-posta gönder hatırlat",
+        "expected": "e-posta_belirsiz_acil",
+        "generated": "e-posta_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz acil lütfen alışveriş yap hatırlat",
+        "expected": "alışveriş_belirsiz_acil",
+        "generated": "alışveriş_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen toplantı ayarla hatırlat bugün",
+        "expected": "toplantı_bugün_acil",
+        "generated": "toplantı_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz acil lütfen e-posta gönder hatırlat bu hafta",
+        "expected": "e-posta_hafta_acil",
+        "generated": "e-posta_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen ödeme yap hatırlat bu hafta",
+        "expected": "ödeme_hafta_normal",
+        "generated": "ödeme_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen mail gönder hatırlat bugün",
+        "expected": "e-posta_bugün_normal",
+        "generated": "e-posta_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen e-posta gönder hatırlat bugün",
+        "expected": "e-posta_bugün_acil",
+        "generated": "e-posta_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen faturayı öde hatırlat bugün",
+        "expected": "ödeme_bugün_acil",
+        "generated": "ödeme_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen alışveriş yap hatırlat bugün",
+        "expected": "alışveriş_bugün_normal",
+        "generated": "alışveriş_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen market alışverişi yap hatırlat bugün",
+        "expected": "alışveriş_bugün_acil",
+        "generated": "alışveriş_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz lütfen alışveriş yap hatırlat",
+        "expected": "alışveriş_belirsiz_normal",
+        "generated": "alışveriş_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen alışveriş yap hatırlat bu hafta",
+        "expected": "alışveriş_hafta_normal",
+        "generated": "alışveriş_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen toplantı planla hatırlat yarın",
+        "expected": "toplantı_yarın_normal",
+        "generated": "toplantı_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen raporu gönder hatırlat",
+        "expected": "rapor_belirsiz_acil",
+        "generated": "rapor_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen mail gönder hatırlat yarın",
+        "expected": "e-posta_yarın_acil",
+        "generated": "e-posta_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen raporu hazırla hatırlat bu hafta",
+        "expected": "rapor_hafta_acil",
+        "generated": "rapor_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen toplantı planla hatırlat",
+        "expected": "toplantı_belirsiz_normal",
+        "generated": "toplantı_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen raporu hazırla hatırlat bu hafta",
+        "expected": "rapor_hafta_normal",
+        "generated": "rapor_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen mail gönder hatırlat bugün",
+        "expected": "e-posta_bugün_acil",
+        "generated": "e-posta_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen alışveriş yap hatırlat bugün",
+        "expected": "alışveriş_bugün_normal",
+        "generated": "alışveriş_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen toplantı planla hatırlat bu hafta",
+        "expected": "toplantı_hafta_acil",
+        "generated": "toplantı_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen toplantı planla hatırlat yarın",
+        "expected": "toplantı_yarın_normal",
+        "generated": "toplantı_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz acil lütfen faturayı öde hatırlat bugün",
+        "expected": "ödeme_bugün_acil",
+        "generated": "ödeme_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen mail gönder hatırlat bugün",
+        "expected": "e-posta_bugün_normal",
+        "generated": "e-posta_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen toplantı planla hatırlat bugün",
+        "expected": "toplantı_bugün_acil",
+        "generated": "toplantı_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz acil lütfen e-posta gönder hatırlat bugün",
+        "expected": "e-posta_bugün_acil",
+        "generated": "e-posta_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz acil lütfen toplantı ayarla hatırlat yarın",
+        "expected": "toplantı_yarın_acil",
+        "generated": "toplantı_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen e-posta gönder hatırlat",
+        "expected": "e-posta_belirsiz_normal",
+        "generated": "e-posta_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen faturayı öde hatırlat bu hafta",
+        "expected": "ödeme_hafta_normal",
+        "generated": "ödeme_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen raporu hazırla hatırlat",
+        "expected": "rapor_belirsiz_normal",
+        "generated": "rapor_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen toplantı planla hatırlat bugün",
+        "expected": "toplantı_bugün_normal",
+        "generated": "toplantı_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz acil lütfen raporu gönder hatırlat bu hafta",
+        "expected": "rapor_hafta_acil",
+        "generated": "rapor_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen raporu hazırla hatırlat",
+        "expected": "rapor_belirsiz_acil",
+        "generated": "rapor_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen toplantı ayarla hatırlat",
+        "expected": "toplantı_belirsiz_acil",
+        "generated": "toplantı_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen market alışverişi yap hatırlat bugün",
+        "expected": "alışveriş_bugün_normal",
+        "generated": "alışveriş_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz lütfen toplantı ayarla hatırlat bu hafta",
+        "expected": "toplantı_hafta_normal",
+        "generated": "toplantı_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen ödeme yap hatırlat bugün",
+        "expected": "ödeme_bugün_normal",
+        "generated": "ödeme_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen faturayı öde hatırlat",
+        "expected": "ödeme_belirsiz_normal",
+        "generated": "ödeme_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz lütfen alışveriş yap hatırlat bu hafta",
+        "expected": "alışveriş_hafta_normal",
+        "generated": "alışveriş_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen alışveriş yap hatırlat bu hafta",
+        "expected": "alışveriş_hafta_normal",
+        "generated": "alışveriş_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen toplantı planla hatırlat bugün",
+        "expected": "toplantı_bugün_acil",
+        "generated": "toplantı_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen raporu hazırla hatırlat yarın",
+        "expected": "rapor_yarın_normal",
+        "generated": "rapor_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen raporu hazırla hatırlat",
+        "expected": "rapor_belirsiz_acil",
+        "generated": "rapor_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen market alışverişi yap hatırlat bu hafta",
+        "expected": "alışveriş_hafta_acil",
+        "generated": "alışveriş_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz lütfen e-posta gönder hatırlat",
+        "expected": "e-posta_belirsiz_normal",
+        "generated": "e-posta_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen toplantı planla hatırlat bugün",
+        "expected": "toplantı_bugün_normal",
+        "generated": "toplantı_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz lütfen e-posta gönder hatırlat yarın",
+        "expected": "e-posta_yarın_normal",
+        "generated": "e-posta_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen faturayı öde hatırlat yarın",
+        "expected": "ödeme_yarın_acil",
+        "generated": "ödeme_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen raporu gönder hatırlat bu hafta",
+        "expected": "rapor_hafta_normal",
+        "generated": "rapor_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz acil lütfen faturayı öde hatırlat yarın",
+        "expected": "ödeme_yarın_acil",
+        "generated": "ödeme_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz acil lütfen toplantı ayarla hatırlat bugün",
+        "expected": "toplantı_bugün_acil",
+        "generated": "toplantı_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen raporu gönder hatırlat",
+        "expected": "rapor_belirsiz_normal",
+        "generated": "rapor_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen ödeme yap hatırlat yarın",
+        "expected": "ödeme_yarın_normal",
+        "generated": "ödeme_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen raporu hazırla hatırlat yarın",
+        "expected": "rapor_yarın_normal",
+        "generated": "rapor_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz lütfen raporu gönder hatırlat yarın",
+        "expected": "rapor_yarın_normal",
+        "generated": "rapor_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen mail gönder hatırlat",
+        "expected": "e-posta_belirsiz_normal",
+        "generated": "e-posta_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen raporu gönder hatırlat yarın",
+        "expected": "rapor_yarın_normal",
+        "generated": "rapor_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen alışveriş yap hatırlat yarın",
+        "expected": "alışveriş_yarın_acil",
+        "generated": "alışveriş_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen faturayı öde hatırlat yarın",
+        "expected": "ödeme_yarın_normal",
+        "generated": "ödeme_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen alışveriş yap hatırlat yarın",
+        "expected": "alışveriş_yarın_normal",
+        "generated": "alışveriş_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen raporu gönder hatırlat bu hafta",
+        "expected": "rapor_hafta_acil",
+        "generated": "rapor_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen ödeme yap hatırlat bugün",
+        "expected": "ödeme_bugün_normal",
+        "generated": "ödeme_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen raporu gönder hatırlat yarın",
+        "expected": "rapor_yarın_acil",
+        "generated": "rapor_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz lütfen faturayı öde hatırlat bugün",
+        "expected": "ödeme_bugün_normal",
+        "generated": "ödeme_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen faturayı öde hatırlat",
+        "expected": "ödeme_belirsiz_acil",
+        "generated": "ödeme_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen faturayı öde hatırlat bugün",
+        "expected": "ödeme_bugün_normal",
+        "generated": "ödeme_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen market alışverişi yap hatırlat yarın",
+        "expected": "alışveriş_yarın_normal",
+        "generated": "alışveriş_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz acil lütfen alışveriş yap hatırlat bugün",
+        "expected": "alışveriş_bugün_acil",
+        "generated": "alışveriş_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen toplantı ayarla hatırlat bu hafta",
+        "expected": "toplantı_hafta_acil",
+        "generated": "toplantı_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen toplantı ayarla hatırlat bugün",
+        "expected": "toplantı_bugün_normal",
+        "generated": "toplantı_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz acil lütfen toplantı ayarla hatırlat bu hafta",
+        "expected": "toplantı_hafta_acil",
+        "generated": "toplantı_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen toplantı planla hatırlat yarın",
+        "expected": "toplantı_yarın_acil",
+        "generated": "toplantı_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen faturayı öde hatırlat yarın",
+        "expected": "ödeme_yarın_acil",
+        "generated": "ödeme_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen market alışverişi yap hatırlat",
+        "expected": "alışveriş_belirsiz_normal",
+        "generated": "alışveriş_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen market alışverişi yap hatırlat",
+        "expected": "alışveriş_belirsiz_acil",
+        "generated": "alışveriş_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen toplantı ayarla hatırlat",
+        "expected": "toplantı_belirsiz_normal",
+        "generated": "toplantı_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen e-posta gönder hatırlat bu hafta",
+        "expected": "e-posta_hafta_normal",
+        "generated": "e-posta_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen raporu gönder hatırlat yarın",
+        "expected": "rapor_yarın_acil",
+        "generated": "rapor_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen ödeme yap hatırlat yarın",
+        "expected": "ödeme_yarın_normal",
+        "generated": "ödeme_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz acil lütfen e-posta gönder hatırlat yarın",
+        "expected": "e-posta_yarın_acil",
+        "generated": "e-posta_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen e-posta gönder hatırlat",
+        "expected": "e-posta_belirsiz_acil",
+        "generated": "e-posta_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen mail gönder hatırlat",
+        "expected": "e-posta_belirsiz_normal",
+        "generated": "e-posta_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen e-posta gönder hatırlat yarın",
+        "expected": "e-posta_yarın_acil",
+        "generated": "e-posta_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen market alışverişi yap hatırlat bugün",
+        "expected": "alışveriş_bugün_acil",
+        "generated": "alışveriş_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen market alışverişi yap hatırlat yarın",
+        "expected": "alışveriş_yarın_normal",
+        "generated": "alışveriş_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen alışveriş yap hatırlat bugün",
+        "expected": "alışveriş_bugün_acil",
+        "generated": "alışveriş_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen mail gönder hatırlat yarın",
+        "expected": "e-posta_yarın_acil",
+        "generated": "e-posta_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen ödeme yap hatırlat yarın",
+        "expected": "ödeme_yarın_acil",
+        "generated": "ödeme_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen ödeme yap hatırlat",
+        "expected": "ödeme_belirsiz_acil",
+        "generated": "ödeme_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen e-posta gönder hatırlat bu hafta",
+        "expected": "e-posta_hafta_acil",
+        "generated": "e-posta_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen raporu gönder hatırlat bu hafta",
+        "expected": "rapor_hafta_acil",
+        "generated": "rapor_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen ödeme yap hatırlat",
+        "expected": "ödeme_belirsiz_acil",
+        "generated": "ödeme_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen faturayı öde hatırlat bugün",
+        "expected": "ödeme_bugün_acil",
+        "generated": "ödeme_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen mail gönder hatırlat yarın",
+        "expected": "e-posta_yarın_normal",
+        "generated": "e-posta_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen toplantı ayarla hatırlat bugün",
+        "expected": "toplantı_bugün_acil",
+        "generated": "toplantı_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen mail gönder hatırlat bu hafta",
+        "expected": "e-posta_hafta_acil",
+        "generated": "e-posta_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz acil lütfen faturayı öde hatırlat bu hafta",
+        "expected": "ödeme_hafta_acil",
+        "generated": "ödeme_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz acil lütfen alışveriş yap hatırlat bu hafta",
+        "expected": "alışveriş_hafta_acil",
+        "generated": "alışveriş_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen e-posta gönder hatırlat yarın",
+        "expected": "e-posta_yarın_acil",
+        "generated": "e-posta_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen mail gönder hatırlat bu hafta",
+        "expected": "e-posta_hafta_normal",
+        "generated": "e-posta_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen toplantı ayarla hatırlat bugün",
+        "expected": "toplantı_bugün_normal",
+        "generated": "toplantı_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen faturayı öde hatırlat bu hafta",
+        "expected": "ödeme_hafta_acil",
+        "generated": "ödeme_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen raporu gönder hatırlat bu hafta",
+        "expected": "rapor_hafta_normal",
+        "generated": "rapor_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen toplantı planla hatırlat yarın",
+        "expected": "toplantı_yarın_acil",
+        "generated": "toplantı_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen toplantı planla hatırlat bu hafta",
+        "expected": "toplantı_hafta_normal",
+        "generated": "toplantı_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen toplantı ayarla hatırlat bu hafta",
+        "expected": "toplantı_hafta_acil",
+        "generated": "toplantı_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen toplantı ayarla hatırlat bu hafta",
+        "expected": "toplantı_hafta_normal",
+        "generated": "toplantı_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen e-posta gönder hatırlat",
+        "expected": "e-posta_belirsiz_normal",
+        "generated": "e-posta_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz lütfen toplantı ayarla hatırlat yarın",
+        "expected": "toplantı_yarın_normal",
+        "generated": "toplantı_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen toplantı ayarla hatırlat yarın",
+        "expected": "toplantı_yarın_acil",
+        "generated": "toplantı_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen toplantı ayarla hatırlat yarın",
+        "expected": "toplantı_yarın_acil",
+        "generated": "toplantı_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen raporu hazırla hatırlat bugün",
+        "expected": "rapor_bugün_normal",
+        "generated": "rapor_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen e-posta gönder hatırlat bu hafta",
+        "expected": "e-posta_hafta_acil",
+        "generated": "e-posta_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen alışveriş yap hatırlat",
+        "expected": "alışveriş_belirsiz_acil",
+        "generated": "alışveriş_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz lütfen faturayı öde hatırlat",
+        "expected": "ödeme_belirsiz_normal",
+        "generated": "ödeme_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen toplantı ayarla hatırlat bu hafta",
+        "expected": "toplantı_hafta_normal",
+        "generated": "toplantı_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen toplantı ayarla hatırlat yarın",
+        "expected": "toplantı_yarın_normal",
+        "generated": "toplantı_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen market alışverişi yap hatırlat",
+        "expected": "alışveriş_belirsiz_acil",
+        "generated": "alışveriş_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen mail gönder hatırlat bu hafta",
+        "expected": "e-posta_hafta_acil",
+        "generated": "e-posta_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen ödeme yap hatırlat bu hafta",
+        "expected": "ödeme_hafta_acil",
+        "generated": "ödeme_hafta_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen faturayı öde hatırlat yarın",
+        "expected": "ödeme_yarın_normal",
+        "generated": "ödeme_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz lütfen e-posta gönder hatırlat bu hafta",
+        "expected": "e-posta_hafta_normal",
+        "generated": "e-posta_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "lütfen ödeme yap hatırlat bu hafta",
+        "expected": "ödeme_hafta_normal",
+        "generated": "ödeme_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz tamam teşekkürler merhaba hava güzel nasılsın görüşürüz lütfen raporu gönder hatırlat bu hafta",
+        "expected": "rapor_hafta_normal",
+        "generated": "rapor_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen alışveriş yap hatırlat",
+        "expected": "alışveriş_belirsiz_acil",
+        "generated": "alışveriş_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acele değil lütfen raporu hazırla hatırlat bugün",
+        "expected": "rapor_bugün_normal",
+        "generated": "rapor_bugün_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen mail gönder hatırlat",
+        "expected": "e-posta_belirsiz_acil",
+        "generated": "e-posta_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli lütfen faturayı öde hatırlat",
+        "expected": "ödeme_belirsiz_acil",
+        "generated": "ödeme_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen raporu gönder hatırlat bugün",
+        "expected": "rapor_bugün_acil",
+        "generated": "rapor_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen raporu hazırla hatırlat yarın",
+        "expected": "rapor_yarın_acil",
+        "generated": "rapor_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen market alışverişi yap hatırlat yarın",
+        "expected": "alışveriş_yarın_acil",
+        "generated": "alışveriş_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen toplantı ayarla hatırlat",
+        "expected": "toplantı_belirsiz_acil",
+        "generated": "toplantı_belirsiz_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil lütfen alışveriş yap hatırlat yarın",
+        "expected": "alışveriş_yarın_acil",
+        "generated": "alışveriş_yarın_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      }
+    ],
+    "novel_examples": 200,
+    "novel_exact_record_accuracy": 1.0
+  },
+  "manual": {
+    "examples": 12,
+    "exact_record_accuracy": 0.8333333333333334,
+    "end_to_end_ms_per_record": 4.061479165102355,
+    "details": [
+      {
+        "input": "yarın raporu hazırla lütfen",
+        "expected": "rapor_yarın_normal",
+        "generated": "rapor_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önemli bugün faturayı öde",
+        "expected": "ödeme_bugün_acil",
+        "generated": "ödeme_bugün_acil",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": true
+      },
+      {
+        "input": "bana alışveriş yap hatırlat yarın",
+        "expected": "alışveriş_yarın_normal",
+        "generated": "alışveriş_yarın_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "bu hafta toplantı ayarla lütfen",
+        "expected": "toplantı_hafta_normal",
+        "generated": "toplantı_hafta_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "mail gönder acele değil",
+        "expected": "e-posta_belirsiz_normal",
+        "generated": "e-posta_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": true
+      },
+      {
+        "input": "bugün hava güzel",
+        "expected": "yok_belirsiz_normal",
+        "generated": "yok_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": true
+      },
+      {
+        "input": "teşekkürler",
+        "expected": "yok_belirsiz_normal",
+        "generated": "yok_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": true
+      },
+      {
+        "input": "acil bir şey yok",
+        "expected": "yok_belirsiz_normal",
+        "generated": "yok_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": true
+      },
+      {
+        "input": "raporu gönderme",
+        "expected": "yok_belirsiz_normal",
+        "generated": "yok_belirsiz_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": true
+      },
+      {
+        "input": "yarın doktora git",
+        "expected": "diğer_yarın_normal",
+        "generated": "rapor_yarın_acil",
+        "correct": false,
+        "unknown_words": true,
+        "seen_in_training": false
+      },
+      {
+        "input": "acil değil yarın raporu gönder",
+        "expected": "rapor_yarın_normal",
+        "generated": "rapor_yarın_acil",
+        "correct": false,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "önce raporu gönderecektim ama artık ödeme yap yarın",
+        "expected": "ödeme_yarın_normal",
+        "generated": "ödeme_yarın_normal",
+        "correct": true,
+        "unknown_words": true,
+        "seen_in_training": false
+      }
+    ],
+    "novel_examples": 6,
+    "novel_exact_record_accuracy": 0.6666666666666666
+  }
+}

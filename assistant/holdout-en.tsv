@@ -1,0 +1,80 @@
+remind me please today send an email urgent	email_today_urgent
+remind me please today send mail urgent	email_today_urgent
+remind me please today send an email not urgent	email_today_normal
+remind me please today send mail not urgent	email_today_normal
+remind me please tomorrow send an email urgent	email_tomorrow_urgent
+remind me please tomorrow send mail urgent	email_tomorrow_urgent
+remind me please tomorrow send an email not urgent	email_tomorrow_normal
+remind me please tomorrow send mail not urgent	email_tomorrow_normal
+remind me please this week send an email urgent	email_week_urgent
+remind me please this week send mail urgent	email_week_urgent
+remind me please this week send an email not urgent	email_week_normal
+remind me please this week send mail not urgent	email_week_normal
+remind me please send an email urgent	email_unspecified_urgent
+remind me please send mail urgent	email_unspecified_urgent
+remind me please send an email not urgent	email_unspecified_normal
+remind me please send mail not urgent	email_unspecified_normal
+remind me please today send the report urgent	report_today_urgent
+remind me please today prepare the report urgent	report_today_urgent
+remind me please today send the report not urgent	report_today_normal
+remind me please today prepare the report not urgent	report_today_normal
+remind me please tomorrow send the report urgent	report_tomorrow_urgent
+remind me please tomorrow prepare the report urgent	report_tomorrow_urgent
+remind me please tomorrow send the report not urgent	report_tomorrow_normal
+remind me please tomorrow prepare the report not urgent	report_tomorrow_normal
+remind me please this week send the report urgent	report_week_urgent
+remind me please this week prepare the report urgent	report_week_urgent
+remind me please this week send the report not urgent	report_week_normal
+remind me please this week prepare the report not urgent	report_week_normal
+remind me please send the report urgent	report_unspecified_urgent
+remind me please prepare the report urgent	report_unspecified_urgent
+remind me please send the report not urgent	report_unspecified_normal
+remind me please prepare the report not urgent	report_unspecified_normal
+remind me please today schedule a meeting urgent	meeting_today_urgent
+remind me please today plan a meeting urgent	meeting_today_urgent
+remind me please today schedule a meeting not urgent	meeting_today_normal
+remind me please today plan a meeting not urgent	meeting_today_normal
+remind me please tomorrow schedule a meeting urgent	meeting_tomorrow_urgent
+remind me please tomorrow plan a meeting urgent	meeting_tomorrow_urgent
+remind me please tomorrow schedule a meeting not urgent	meeting_tomorrow_normal
+remind me please tomorrow plan a meeting not urgent	meeting_tomorrow_normal
+remind me please this week schedule a meeting urgent	meeting_week_urgent
+remind me please this week plan a meeting urgent	meeting_week_urgent
+remind me please this week schedule a meeting not urgent	meeting_week_normal
+remind me please this week plan a meeting not urgent	meeting_week_normal
+remind me please schedule a meeting urgent	meeting_unspecified_urgent
+remind me please plan a meeting urgent	meeting_unspecified_urgent
+remind me please schedule a meeting not urgent	meeting_unspecified_normal
+remind me please plan a meeting not urgent	meeting_unspecified_normal
+remind me please today go shopping urgent	shopping_today_urgent
+remind me please today do grocery shopping urgent	shopping_today_urgent
+remind me please today go shopping not urgent	shopping_today_normal
+remind me please today do grocery shopping not urgent	shopping_today_normal
+remind me please tomorrow go shopping urgent	shopping_tomorrow_urgent
+remind me please tomorrow do grocery shopping urgent	shopping_tomorrow_urgent
+remind me please tomorrow go shopping not urgent	shopping_tomorrow_normal
+remind me please tomorrow do grocery shopping not urgent	shopping_tomorrow_normal
+remind me please this week go shopping urgent	shopping_week_urgent
+remind me please this week do grocery shopping urgent	shopping_week_urgent
+remind me please this week go shopping not urgent	shopping_week_normal
+remind me please this week do grocery shopping not urgent	shopping_week_normal
+remind me please go shopping urgent	shopping_unspecified_urgent
+remind me please do grocery shopping urgent	shopping_unspecified_urgent
+remind me please go shopping not urgent	shopping_unspecified_normal
+remind me please do grocery shopping not urgent	shopping_unspecified_normal
+remind me please today pay the bill urgent	payment_today_urgent
+remind me please today make a payment urgent	payment_today_urgent
+remind me please today pay the bill not urgent	payment_today_normal
+remind me please today make a payment not urgent	payment_today_normal
+remind me please tomorrow pay the bill urgent	payment_tomorrow_urgent
+remind me please tomorrow make a payment urgent	payment_tomorrow_urgent
+remind me please tomorrow pay the bill not urgent	payment_tomorrow_normal
+remind me please tomorrow make a payment not urgent	payment_tomorrow_normal
+remind me please this week pay the bill urgent	payment_week_urgent
+remind me please this week make a payment urgent	payment_week_urgent
+remind me please this week pay the bill not urgent	payment_week_normal
+remind me please this week make a payment not urgent	payment_week_normal
+remind me please pay the bill urgent	payment_unspecified_urgent
+remind me please make a payment urgent	payment_unspecified_urgent
+remind me please pay the bill not urgent	payment_unspecified_normal
+remind me please make a payment not urgent	payment_unspecified_normal

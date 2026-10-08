@@ -13,3 +13,8 @@ experiments/round3/reproduced/
 .DS_Store
 __pycache__/
 *.pyc
+
+divide-chat
+chat-sanitize
+
+*.dSYM/

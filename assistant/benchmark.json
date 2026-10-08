@@ -1,0 +1,32 @@
+{
+  "scope": "Numeric inference; teacher-forced answer tokens on synthetic evaluation contexts; excludes checkpoint/process startup. Nine runs after one warm-up, alternating modes.",
+  "runs_ms_per_token": {
+    "divide": [
+      0.0093,
+      0.0093,
+      0.0093,
+      0.0094,
+      0.0093,
+      0.0093,
+      0.0093,
+      0.0101,
+      0.0103
+    ],
+    "dense": [
+      0.0127,
+      0.0127,
+      0.0127,
+      0.0126,
+      0.0125,
+      0.0126,
+      0.0155,
+      0.0136,
+      0.0134
+    ]
+  },
+  "median_ms_per_token": {
+    "divide": 0.0093,
+    "dense": 0.0127
+  },
+  "divide_latency_reduction": 0.26771653543307095
+}

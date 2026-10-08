@@ -1,0 +1,2285 @@
+{
+  "eval": {
+    "examples": 190,
+    "exact_record_accuracy": 0.9421052631578948,
+    "end_to_end_ms_per_record": 3.8214576736974872,
+    "details": [
+      {
+        "input": "urgent please go shopping remind me tomorrow",
+        "expected": "shopping_tomorrow_urgent",
+        "generated": "shopping_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please send the report remind me this week",
+        "expected": "report_week_urgent",
+        "generated": "report_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please send an email remind me this week",
+        "expected": "email_week_urgent",
+        "generated": "email_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please make a payment remind me",
+        "expected": "payment_unspecified_urgent",
+        "generated": "payment_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please send mail remind me this week",
+        "expected": "email_week_urgent",
+        "generated": "email_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please prepare the report remind me this week",
+        "expected": "report_week_normal",
+        "generated": "report_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please go shopping remind me this week",
+        "expected": "shopping_week_urgent",
+        "generated": "shopping_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please pay the bill remind me this week",
+        "expected": "payment_week_normal",
+        "generated": "payment_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please send an email remind me",
+        "expected": "email_unspecified_urgent",
+        "generated": "email_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please do grocery shopping remind me today",
+        "expected": "shopping_today_normal",
+        "generated": "shopping_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please pay the bill remind me today",
+        "expected": "payment_today_normal",
+        "generated": "payment_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please send mail remind me today",
+        "expected": "email_today_normal",
+        "generated": "email_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye please go shopping remind me today",
+        "expected": "shopping_today_normal",
+        "generated": "shopping_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye please send the report remind me",
+        "expected": "report_unspecified_normal",
+        "generated": "report_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye please send an email remind me this week",
+        "expected": "email_week_normal",
+        "generated": "email_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please send mail remind me today",
+        "expected": "email_today_urgent",
+        "generated": "email_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please prepare the report remind me",
+        "expected": "report_unspecified_urgent",
+        "generated": "report_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please schedule a meeting remind me today",
+        "expected": "meeting_today_urgent",
+        "generated": "meeting_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please send the report remind me",
+        "expected": "report_unspecified_normal",
+        "generated": "report_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please go shopping remind me today",
+        "expected": "shopping_today_normal",
+        "generated": "shopping_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please send an email remind me this week",
+        "expected": "email_week_urgent",
+        "generated": "email_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please send the report remind me this week",
+        "expected": "report_week_normal",
+        "generated": "report_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please plan a meeting remind me tomorrow",
+        "expected": "meeting_tomorrow_normal",
+        "generated": "meeting_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please pay the bill remind me tomorrow",
+        "expected": "payment_tomorrow_normal",
+        "generated": "payment_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please do grocery shopping remind me this week",
+        "expected": "shopping_week_normal",
+        "generated": "shopping_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye urgent please go shopping remind me today",
+        "expected": "shopping_today_urgent",
+        "generated": "shopping_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye urgent please send an email remind me today",
+        "expected": "email_today_urgent",
+        "generated": "email_today_normal",
+        "correct": false,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please make a payment remind me tomorrow",
+        "expected": "payment_tomorrow_urgent",
+        "generated": "payment_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please plan a meeting remind me",
+        "expected": "meeting_unspecified_urgent",
+        "generated": "meeting_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please send an email remind me",
+        "expected": "email_unspecified_normal",
+        "generated": "email_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please prepare the report remind me tomorrow",
+        "expected": "report_tomorrow_urgent",
+        "generated": "report_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please send an email remind me today",
+        "expected": "email_today_urgent",
+        "generated": "email_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please do grocery shopping remind me this week",
+        "expected": "shopping_week_urgent",
+        "generated": "shopping_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please pay the bill remind me today",
+        "expected": "payment_today_urgent",
+        "generated": "payment_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please go shopping remind me this week",
+        "expected": "shopping_week_normal",
+        "generated": "shopping_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please send the report remind me",
+        "expected": "report_unspecified_urgent",
+        "generated": "report_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please pay the bill remind me today",
+        "expected": "payment_today_urgent",
+        "generated": "payment_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please schedule a meeting remind me tomorrow",
+        "expected": "meeting_tomorrow_normal",
+        "generated": "meeting_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please prepare the report remind me this week",
+        "expected": "report_week_urgent",
+        "generated": "report_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye urgent please send an email remind me",
+        "expected": "email_unspecified_urgent",
+        "generated": "email_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye please send an email remind me today",
+        "expected": "email_today_normal",
+        "generated": "email_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please pay the bill remind me",
+        "expected": "payment_unspecified_urgent",
+        "generated": "payment_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please pay the bill remind me",
+        "expected": "payment_unspecified_urgent",
+        "generated": "payment_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye urgent please send an email remind me this week",
+        "expected": "email_week_urgent",
+        "generated": "email_week_normal",
+        "correct": false,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please plan a meeting remind me this week",
+        "expected": "meeting_week_urgent",
+        "generated": "meeting_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please send the report remind me",
+        "expected": "report_unspecified_urgent",
+        "generated": "report_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please plan a meeting remind me today",
+        "expected": "meeting_today_normal",
+        "generated": "meeting_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please go shopping remind me today",
+        "expected": "shopping_today_urgent",
+        "generated": "shopping_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please send mail remind me tomorrow",
+        "expected": "email_tomorrow_urgent",
+        "generated": "email_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please send the report remind me today",
+        "expected": "report_today_normal",
+        "generated": "report_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye please schedule a meeting remind me this week",
+        "expected": "meeting_week_normal",
+        "generated": "meeting_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye urgent please send the report remind me tomorrow",
+        "expected": "report_tomorrow_urgent",
+        "generated": "report_tomorrow_normal",
+        "correct": false,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please send an email remind me tomorrow",
+        "expected": "email_tomorrow_urgent",
+        "generated": "email_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please schedule a meeting remind me",
+        "expected": "meeting_unspecified_urgent",
+        "generated": "meeting_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please schedule a meeting remind me today",
+        "expected": "meeting_today_normal",
+        "generated": "meeting_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please pay the bill remind me this week",
+        "expected": "payment_week_urgent",
+        "generated": "payment_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please do grocery shopping remind me tomorrow",
+        "expected": "shopping_tomorrow_urgent",
+        "generated": "shopping_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please do grocery shopping remind me tomorrow",
+        "expected": "shopping_tomorrow_urgent",
+        "generated": "shopping_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please send the report remind me today",
+        "expected": "report_today_urgent",
+        "generated": "report_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please plan a meeting remind me",
+        "expected": "meeting_unspecified_normal",
+        "generated": "meeting_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please send an email remind me tomorrow",
+        "expected": "email_tomorrow_urgent",
+        "generated": "email_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please plan a meeting remind me today",
+        "expected": "meeting_today_normal",
+        "generated": "meeting_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please make a payment remind me tomorrow",
+        "expected": "payment_tomorrow_urgent",
+        "generated": "payment_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye urgent please pay the bill remind me today",
+        "expected": "payment_today_urgent",
+        "generated": "payment_today_normal",
+        "correct": false,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please send mail remind me today",
+        "expected": "email_today_urgent",
+        "generated": "email_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please send mail remind me",
+        "expected": "email_unspecified_urgent",
+        "generated": "email_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please go shopping remind me today",
+        "expected": "shopping_today_normal",
+        "generated": "shopping_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please plan a meeting remind me tomorrow",
+        "expected": "meeting_tomorrow_normal",
+        "generated": "meeting_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please plan a meeting remind me this week",
+        "expected": "meeting_week_normal",
+        "generated": "meeting_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please send an email remind me today",
+        "expected": "email_today_normal",
+        "generated": "email_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please send the report remind me this week",
+        "expected": "report_week_urgent",
+        "generated": "report_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please plan a meeting remind me this week",
+        "expected": "meeting_week_normal",
+        "generated": "meeting_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye urgent please go shopping remind me",
+        "expected": "shopping_unspecified_urgent",
+        "generated": "shopping_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please make a payment remind me today",
+        "expected": "payment_today_normal",
+        "generated": "payment_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please plan a meeting remind me today",
+        "expected": "meeting_today_urgent",
+        "generated": "meeting_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please prepare the report remind me",
+        "expected": "report_unspecified_urgent",
+        "generated": "report_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please make a payment remind me this week",
+        "expected": "payment_week_urgent",
+        "generated": "payment_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please send the report remind me today",
+        "expected": "report_today_normal",
+        "generated": "report_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please prepare the report remind me today",
+        "expected": "report_today_urgent",
+        "generated": "report_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please send the report remind me tomorrow",
+        "expected": "report_tomorrow_normal",
+        "generated": "report_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please send the report remind me this week",
+        "expected": "report_week_normal",
+        "generated": "report_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please do grocery shopping remind me this week",
+        "expected": "shopping_week_normal",
+        "generated": "shopping_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye please schedule a meeting remind me today",
+        "expected": "meeting_today_normal",
+        "generated": "meeting_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye urgent please pay the bill remind me this week",
+        "expected": "payment_week_urgent",
+        "generated": "payment_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye please pay the bill remind me tomorrow",
+        "expected": "payment_tomorrow_normal",
+        "generated": "payment_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please send mail remind me tomorrow",
+        "expected": "email_tomorrow_urgent",
+        "generated": "email_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please pay the bill remind me tomorrow",
+        "expected": "payment_tomorrow_urgent",
+        "generated": "payment_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye urgent please go shopping remind me this week",
+        "expected": "shopping_week_urgent",
+        "generated": "shopping_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye urgent please go shopping remind me tomorrow",
+        "expected": "shopping_tomorrow_urgent",
+        "generated": "shopping_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please prepare the report remind me tomorrow",
+        "expected": "report_tomorrow_urgent",
+        "generated": "report_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please send an email remind me this week",
+        "expected": "email_week_normal",
+        "generated": "email_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please send mail remind me this week",
+        "expected": "email_week_normal",
+        "generated": "email_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please do grocery shopping remind me today",
+        "expected": "shopping_today_urgent",
+        "generated": "shopping_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please schedule a meeting remind me this week",
+        "expected": "meeting_week_normal",
+        "generated": "meeting_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please pay the bill remind me tomorrow",
+        "expected": "payment_tomorrow_normal",
+        "generated": "payment_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye urgent please send the report remind me this week",
+        "expected": "report_week_urgent",
+        "generated": "report_week_normal",
+        "correct": false,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please do grocery shopping remind me today",
+        "expected": "shopping_today_normal",
+        "generated": "shopping_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please go shopping remind me",
+        "expected": "shopping_unspecified_urgent",
+        "generated": "shopping_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please prepare the report remind me today",
+        "expected": "report_today_urgent",
+        "generated": "report_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please send the report remind me tomorrow",
+        "expected": "report_tomorrow_urgent",
+        "generated": "report_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye urgent please schedule a meeting remind me today",
+        "expected": "meeting_today_urgent",
+        "generated": "meeting_today_normal",
+        "correct": false,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye please send the report remind me tomorrow",
+        "expected": "report_tomorrow_normal",
+        "generated": "report_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye urgent please send the report remind me",
+        "expected": "report_unspecified_urgent",
+        "generated": "report_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please pay the bill remind me this week",
+        "expected": "payment_week_urgent",
+        "generated": "payment_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please send mail remind me",
+        "expected": "email_unspecified_urgent",
+        "generated": "email_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye please go shopping remind me tomorrow",
+        "expected": "shopping_tomorrow_normal",
+        "generated": "shopping_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please schedule a meeting remind me tomorrow",
+        "expected": "meeting_tomorrow_urgent",
+        "generated": "meeting_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please send mail remind me tomorrow",
+        "expected": "email_tomorrow_normal",
+        "generated": "email_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please prepare the report remind me this week",
+        "expected": "report_week_urgent",
+        "generated": "report_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye urgent please pay the bill remind me",
+        "expected": "payment_unspecified_urgent",
+        "generated": "payment_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please send the report remind me tomorrow",
+        "expected": "report_tomorrow_normal",
+        "generated": "report_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please send mail remind me today",
+        "expected": "email_today_normal",
+        "generated": "email_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye please schedule a meeting remind me",
+        "expected": "meeting_unspecified_normal",
+        "generated": "meeting_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please prepare the report remind me today",
+        "expected": "report_today_normal",
+        "generated": "report_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye please send the report remind me today",
+        "expected": "report_today_normal",
+        "generated": "report_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye urgent please schedule a meeting remind me tomorrow",
+        "expected": "meeting_tomorrow_urgent",
+        "generated": "meeting_tomorrow_normal",
+        "correct": false,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please make a payment remind me",
+        "expected": "payment_unspecified_normal",
+        "generated": "payment_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please make a payment remind me this week",
+        "expected": "payment_week_urgent",
+        "generated": "payment_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please make a payment remind me this week",
+        "expected": "payment_week_normal",
+        "generated": "payment_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye please schedule a meeting remind me tomorrow",
+        "expected": "meeting_tomorrow_normal",
+        "generated": "meeting_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please send mail remind me tomorrow",
+        "expected": "email_tomorrow_normal",
+        "generated": "email_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye please send an email remind me",
+        "expected": "email_unspecified_normal",
+        "generated": "email_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please plan a meeting remind me today",
+        "expected": "meeting_today_urgent",
+        "generated": "meeting_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please schedule a meeting remind me",
+        "expected": "meeting_unspecified_urgent",
+        "generated": "meeting_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please schedule a meeting remind me this week",
+        "expected": "meeting_week_normal",
+        "generated": "meeting_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please pay the bill remind me this week",
+        "expected": "payment_week_normal",
+        "generated": "payment_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please make a payment remind me today",
+        "expected": "payment_today_normal",
+        "generated": "payment_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please plan a meeting remind me tomorrow",
+        "expected": "meeting_tomorrow_urgent",
+        "generated": "meeting_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please send mail remind me this week",
+        "expected": "email_week_urgent",
+        "generated": "email_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please do grocery shopping remind me tomorrow",
+        "expected": "shopping_tomorrow_normal",
+        "generated": "shopping_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please make a payment remind me tomorrow",
+        "expected": "payment_tomorrow_normal",
+        "generated": "payment_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye urgent please send the report remind me today",
+        "expected": "report_today_urgent",
+        "generated": "report_today_normal",
+        "correct": false,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please send the report remind me today",
+        "expected": "report_today_urgent",
+        "generated": "report_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please make a payment remind me",
+        "expected": "payment_unspecified_urgent",
+        "generated": "payment_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please plan a meeting remind me tomorrow",
+        "expected": "meeting_tomorrow_urgent",
+        "generated": "meeting_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please schedule a meeting remind me this week",
+        "expected": "meeting_week_urgent",
+        "generated": "meeting_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye please send an email remind me tomorrow",
+        "expected": "email_tomorrow_normal",
+        "generated": "email_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye urgent please send an email remind me tomorrow",
+        "expected": "email_tomorrow_urgent",
+        "generated": "email_tomorrow_normal",
+        "correct": false,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please make a payment remind me this week",
+        "expected": "payment_week_normal",
+        "generated": "payment_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please send an email remind me today",
+        "expected": "email_today_normal",
+        "generated": "email_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye please go shopping remind me",
+        "expected": "shopping_unspecified_normal",
+        "generated": "shopping_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please prepare the report remind me tomorrow",
+        "expected": "report_tomorrow_normal",
+        "generated": "report_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please pay the bill remind me tomorrow",
+        "expected": "payment_tomorrow_urgent",
+        "generated": "payment_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please do grocery shopping remind me tomorrow",
+        "expected": "shopping_tomorrow_normal",
+        "generated": "shopping_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please go shopping remind me tomorrow",
+        "expected": "shopping_tomorrow_urgent",
+        "generated": "shopping_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye please pay the bill remind me today",
+        "expected": "payment_today_normal",
+        "generated": "payment_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please send an email remind me tomorrow",
+        "expected": "email_tomorrow_normal",
+        "generated": "email_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please pay the bill remind me today",
+        "expected": "payment_today_normal",
+        "generated": "payment_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please do grocery shopping remind me",
+        "expected": "shopping_unspecified_normal",
+        "generated": "shopping_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please send an email remind me",
+        "expected": "email_unspecified_urgent",
+        "generated": "email_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please send an email remind me today",
+        "expected": "email_today_urgent",
+        "generated": "email_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please send mail remind me",
+        "expected": "email_unspecified_normal",
+        "generated": "email_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye urgent please schedule a meeting remind me this week",
+        "expected": "meeting_week_urgent",
+        "generated": "meeting_week_normal",
+        "correct": false,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please prepare the report remind me tomorrow",
+        "expected": "report_tomorrow_normal",
+        "generated": "report_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please plan a meeting remind me",
+        "expected": "meeting_unspecified_urgent",
+        "generated": "meeting_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please send an email remind me this week",
+        "expected": "email_week_normal",
+        "generated": "email_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please send an email remind me tomorrow",
+        "expected": "email_tomorrow_normal",
+        "generated": "email_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please schedule a meeting remind me tomorrow",
+        "expected": "meeting_tomorrow_urgent",
+        "generated": "meeting_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please go shopping remind me tomorrow",
+        "expected": "shopping_tomorrow_normal",
+        "generated": "shopping_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please do grocery shopping remind me",
+        "expected": "shopping_unspecified_urgent",
+        "generated": "shopping_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye urgent please schedule a meeting remind me",
+        "expected": "meeting_unspecified_urgent",
+        "generated": "meeting_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please schedule a meeting remind me today",
+        "expected": "meeting_today_normal",
+        "generated": "meeting_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please plan a meeting remind me this week",
+        "expected": "meeting_week_urgent",
+        "generated": "meeting_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please send the report remind me tomorrow",
+        "expected": "report_tomorrow_urgent",
+        "generated": "report_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please make a payment remind me tomorrow",
+        "expected": "payment_tomorrow_normal",
+        "generated": "payment_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please do grocery shopping remind me",
+        "expected": "shopping_unspecified_urgent",
+        "generated": "shopping_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye urgent please pay the bill remind me tomorrow",
+        "expected": "payment_tomorrow_urgent",
+        "generated": "payment_tomorrow_normal",
+        "correct": false,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please go shopping remind me",
+        "expected": "shopping_unspecified_normal",
+        "generated": "shopping_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please schedule a meeting remind me today",
+        "expected": "meeting_today_urgent",
+        "generated": "meeting_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye please pay the bill remind me",
+        "expected": "payment_unspecified_normal",
+        "generated": "payment_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please go shopping remind me tomorrow",
+        "expected": "shopping_tomorrow_normal",
+        "generated": "shopping_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please do grocery shopping remind me today",
+        "expected": "shopping_today_urgent",
+        "generated": "shopping_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please pay the bill remind me",
+        "expected": "payment_unspecified_normal",
+        "generated": "payment_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please schedule a meeting remind me tomorrow",
+        "expected": "meeting_tomorrow_normal",
+        "generated": "meeting_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye please go shopping remind me this week",
+        "expected": "shopping_week_normal",
+        "generated": "shopping_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please schedule a meeting remind me",
+        "expected": "meeting_unspecified_normal",
+        "generated": "meeting_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please go shopping remind me",
+        "expected": "shopping_unspecified_urgent",
+        "generated": "shopping_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please make a payment remind me today",
+        "expected": "payment_today_urgent",
+        "generated": "payment_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please go shopping remind me this week",
+        "expected": "shopping_week_normal",
+        "generated": "shopping_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please schedule a meeting remind me this week",
+        "expected": "meeting_week_urgent",
+        "generated": "meeting_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye please pay the bill remind me this week",
+        "expected": "payment_week_normal",
+        "generated": "payment_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please prepare the report remind me",
+        "expected": "report_unspecified_normal",
+        "generated": "report_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please send mail remind me this week",
+        "expected": "email_week_normal",
+        "generated": "email_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please make a payment remind me today",
+        "expected": "payment_today_urgent",
+        "generated": "payment_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please prepare the report remind me today",
+        "expected": "report_today_normal",
+        "generated": "report_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please go shopping remind me today",
+        "expected": "shopping_today_urgent",
+        "generated": "shopping_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "urgent please go shopping remind me this week",
+        "expected": "shopping_week_urgent",
+        "generated": "shopping_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye okay thanks hello nice weather how are you goodbye please send the report remind me this week",
+        "expected": "report_week_normal",
+        "generated": "report_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please prepare the report remind me this week",
+        "expected": "report_week_normal",
+        "generated": "report_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important please do grocery shopping remind me this week",
+        "expected": "shopping_week_urgent",
+        "generated": "shopping_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      }
+    ],
+    "novel_examples": 190,
+    "novel_exact_record_accuracy": 0.9421052631578948
+  },
+  "manual": {
+    "examples": 12,
+    "exact_record_accuracy": 0.8333333333333334,
+    "end_to_end_ms_per_record": 3.712465336623912,
+    "details": [
+      {
+        "input": "please prepare the report tomorrow",
+        "expected": "report_tomorrow_normal",
+        "generated": "report_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "important pay the bill today",
+        "expected": "payment_today_urgent",
+        "generated": "payment_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": true
+      },
+      {
+        "input": "remind me to go shopping tomorrow",
+        "expected": "shopping_tomorrow_normal",
+        "generated": "shopping_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "please schedule a meeting this week",
+        "expected": "meeting_week_normal",
+        "generated": "meeting_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "send mail not urgent",
+        "expected": "email_unspecified_normal",
+        "generated": "email_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": true
+      },
+      {
+        "input": "nice weather today",
+        "expected": "none_unspecified_normal",
+        "generated": "none_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": true
+      },
+      {
+        "input": "thanks",
+        "expected": "none_unspecified_normal",
+        "generated": "none_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": true
+      },
+      {
+        "input": "nothing urgent",
+        "expected": "none_unspecified_normal",
+        "generated": "none_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": true
+      },
+      {
+        "input": "do not send the report",
+        "expected": "none_unspecified_normal",
+        "generated": "none_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": true
+      },
+      {
+        "input": "go to the doctor tomorrow",
+        "expected": "other_tomorrow_normal",
+        "generated": "shopping_today_normal",
+        "correct": false,
+        "unknown_words": true,
+        "seen_in_training": false
+      },
+      {
+        "input": "not urgent please send the report tomorrow",
+        "expected": "report_tomorrow_normal",
+        "generated": "report_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "first send the report but actually make a payment tomorrow",
+        "expected": "payment_tomorrow_normal",
+        "generated": "report_tomorrow_normal",
+        "correct": false,
+        "unknown_words": true,
+        "seen_in_training": false
+      }
+    ],
+    "novel_examples": 6,
+    "novel_exact_record_accuracy": 0.6666666666666666
+  },
+  "holdout": {
+    "examples": 80,
+    "exact_record_accuracy": 1.0,
+    "end_to_end_ms_per_record": 3.750990624394035,
+    "details": [
+      {
+        "input": "remind me please today send an email urgent",
+        "expected": "email_today_urgent",
+        "generated": "email_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please today send mail urgent",
+        "expected": "email_today_urgent",
+        "generated": "email_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please today send an email not urgent",
+        "expected": "email_today_normal",
+        "generated": "email_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please today send mail not urgent",
+        "expected": "email_today_normal",
+        "generated": "email_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please tomorrow send an email urgent",
+        "expected": "email_tomorrow_urgent",
+        "generated": "email_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please tomorrow send mail urgent",
+        "expected": "email_tomorrow_urgent",
+        "generated": "email_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please tomorrow send an email not urgent",
+        "expected": "email_tomorrow_normal",
+        "generated": "email_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please tomorrow send mail not urgent",
+        "expected": "email_tomorrow_normal",
+        "generated": "email_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please this week send an email urgent",
+        "expected": "email_week_urgent",
+        "generated": "email_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please this week send mail urgent",
+        "expected": "email_week_urgent",
+        "generated": "email_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please this week send an email not urgent",
+        "expected": "email_week_normal",
+        "generated": "email_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please this week send mail not urgent",
+        "expected": "email_week_normal",
+        "generated": "email_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please send an email urgent",
+        "expected": "email_unspecified_urgent",
+        "generated": "email_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please send mail urgent",
+        "expected": "email_unspecified_urgent",
+        "generated": "email_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please send an email not urgent",
+        "expected": "email_unspecified_normal",
+        "generated": "email_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please send mail not urgent",
+        "expected": "email_unspecified_normal",
+        "generated": "email_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please today send the report urgent",
+        "expected": "report_today_urgent",
+        "generated": "report_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please today prepare the report urgent",
+        "expected": "report_today_urgent",
+        "generated": "report_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please today send the report not urgent",
+        "expected": "report_today_normal",
+        "generated": "report_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please today prepare the report not urgent",
+        "expected": "report_today_normal",
+        "generated": "report_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please tomorrow send the report urgent",
+        "expected": "report_tomorrow_urgent",
+        "generated": "report_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please tomorrow prepare the report urgent",
+        "expected": "report_tomorrow_urgent",
+        "generated": "report_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please tomorrow send the report not urgent",
+        "expected": "report_tomorrow_normal",
+        "generated": "report_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please tomorrow prepare the report not urgent",
+        "expected": "report_tomorrow_normal",
+        "generated": "report_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please this week send the report urgent",
+        "expected": "report_week_urgent",
+        "generated": "report_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please this week prepare the report urgent",
+        "expected": "report_week_urgent",
+        "generated": "report_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please this week send the report not urgent",
+        "expected": "report_week_normal",
+        "generated": "report_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please this week prepare the report not urgent",
+        "expected": "report_week_normal",
+        "generated": "report_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please send the report urgent",
+        "expected": "report_unspecified_urgent",
+        "generated": "report_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please prepare the report urgent",
+        "expected": "report_unspecified_urgent",
+        "generated": "report_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please send the report not urgent",
+        "expected": "report_unspecified_normal",
+        "generated": "report_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please prepare the report not urgent",
+        "expected": "report_unspecified_normal",
+        "generated": "report_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please today schedule a meeting urgent",
+        "expected": "meeting_today_urgent",
+        "generated": "meeting_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please today plan a meeting urgent",
+        "expected": "meeting_today_urgent",
+        "generated": "meeting_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please today schedule a meeting not urgent",
+        "expected": "meeting_today_normal",
+        "generated": "meeting_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please today plan a meeting not urgent",
+        "expected": "meeting_today_normal",
+        "generated": "meeting_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please tomorrow schedule a meeting urgent",
+        "expected": "meeting_tomorrow_urgent",
+        "generated": "meeting_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please tomorrow plan a meeting urgent",
+        "expected": "meeting_tomorrow_urgent",
+        "generated": "meeting_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please tomorrow schedule a meeting not urgent",
+        "expected": "meeting_tomorrow_normal",
+        "generated": "meeting_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please tomorrow plan a meeting not urgent",
+        "expected": "meeting_tomorrow_normal",
+        "generated": "meeting_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please this week schedule a meeting urgent",
+        "expected": "meeting_week_urgent",
+        "generated": "meeting_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please this week plan a meeting urgent",
+        "expected": "meeting_week_urgent",
+        "generated": "meeting_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please this week schedule a meeting not urgent",
+        "expected": "meeting_week_normal",
+        "generated": "meeting_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please this week plan a meeting not urgent",
+        "expected": "meeting_week_normal",
+        "generated": "meeting_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please schedule a meeting urgent",
+        "expected": "meeting_unspecified_urgent",
+        "generated": "meeting_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please plan a meeting urgent",
+        "expected": "meeting_unspecified_urgent",
+        "generated": "meeting_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please schedule a meeting not urgent",
+        "expected": "meeting_unspecified_normal",
+        "generated": "meeting_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please plan a meeting not urgent",
+        "expected": "meeting_unspecified_normal",
+        "generated": "meeting_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please today go shopping urgent",
+        "expected": "shopping_today_urgent",
+        "generated": "shopping_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please today do grocery shopping urgent",
+        "expected": "shopping_today_urgent",
+        "generated": "shopping_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please today go shopping not urgent",
+        "expected": "shopping_today_normal",
+        "generated": "shopping_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please today do grocery shopping not urgent",
+        "expected": "shopping_today_normal",
+        "generated": "shopping_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please tomorrow go shopping urgent",
+        "expected": "shopping_tomorrow_urgent",
+        "generated": "shopping_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please tomorrow do grocery shopping urgent",
+        "expected": "shopping_tomorrow_urgent",
+        "generated": "shopping_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please tomorrow go shopping not urgent",
+        "expected": "shopping_tomorrow_normal",
+        "generated": "shopping_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please tomorrow do grocery shopping not urgent",
+        "expected": "shopping_tomorrow_normal",
+        "generated": "shopping_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please this week go shopping urgent",
+        "expected": "shopping_week_urgent",
+        "generated": "shopping_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please this week do grocery shopping urgent",
+        "expected": "shopping_week_urgent",
+        "generated": "shopping_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please this week go shopping not urgent",
+        "expected": "shopping_week_normal",
+        "generated": "shopping_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please this week do grocery shopping not urgent",
+        "expected": "shopping_week_normal",
+        "generated": "shopping_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please go shopping urgent",
+        "expected": "shopping_unspecified_urgent",
+        "generated": "shopping_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please do grocery shopping urgent",
+        "expected": "shopping_unspecified_urgent",
+        "generated": "shopping_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please go shopping not urgent",
+        "expected": "shopping_unspecified_normal",
+        "generated": "shopping_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please do grocery shopping not urgent",
+        "expected": "shopping_unspecified_normal",
+        "generated": "shopping_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please today pay the bill urgent",
+        "expected": "payment_today_urgent",
+        "generated": "payment_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please today make a payment urgent",
+        "expected": "payment_today_urgent",
+        "generated": "payment_today_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please today pay the bill not urgent",
+        "expected": "payment_today_normal",
+        "generated": "payment_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please today make a payment not urgent",
+        "expected": "payment_today_normal",
+        "generated": "payment_today_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please tomorrow pay the bill urgent",
+        "expected": "payment_tomorrow_urgent",
+        "generated": "payment_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please tomorrow make a payment urgent",
+        "expected": "payment_tomorrow_urgent",
+        "generated": "payment_tomorrow_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please tomorrow pay the bill not urgent",
+        "expected": "payment_tomorrow_normal",
+        "generated": "payment_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please tomorrow make a payment not urgent",
+        "expected": "payment_tomorrow_normal",
+        "generated": "payment_tomorrow_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please this week pay the bill urgent",
+        "expected": "payment_week_urgent",
+        "generated": "payment_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please this week make a payment urgent",
+        "expected": "payment_week_urgent",
+        "generated": "payment_week_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please this week pay the bill not urgent",
+        "expected": "payment_week_normal",
+        "generated": "payment_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please this week make a payment not urgent",
+        "expected": "payment_week_normal",
+        "generated": "payment_week_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please pay the bill urgent",
+        "expected": "payment_unspecified_urgent",
+        "generated": "payment_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please make a payment urgent",
+        "expected": "payment_unspecified_urgent",
+        "generated": "payment_unspecified_urgent",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please pay the bill not urgent",
+        "expected": "payment_unspecified_normal",
+        "generated": "payment_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      },
+      {
+        "input": "remind me please make a payment not urgent",
+        "expected": "payment_unspecified_normal",
+        "generated": "payment_unspecified_normal",
+        "correct": true,
+        "unknown_words": false,
+        "seen_in_training": false
+      }
+    ],
+    "novel_examples": 80,
+    "novel_exact_record_accuracy": 1.0
+  }
+}
